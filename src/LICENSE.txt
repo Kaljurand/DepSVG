@@ -1,0 +1,2 @@
+DepSVG is free software licensed under the GNU Lesser General Public Licence version 3 or later
+(see http://www.gnu.org/licenses/lgpl.html).
