@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox='0 0 306 243' width='306' height='243'>
+
+<title>.</title>
+<defs><marker id="a" viewbox="0 0 8 4" refX="8" refY="2" markerUnits="strokeWidth"
+markerWidth="8" markerHeight="4" orient="auto">
+<path d="M 0 0 L 8 2 L 0 4 Z" fill='#800'/>
+</marker>
+</defs>
+
+<g stroke-width='1px' stroke-linecap='butt' font-family='sans-serif' font-size='9px' text-anchor='middle' dominant-baseline='central' word-spacing='0px' letter-spacing='0px'>
+<g stroke-width='0' fill='black'>
+<text x='9' y='198'>O</text>
+<text x='9' y='207'>art</text>
+<text x='9' y='216'>art</text>
+<text x='9' y='225'>o</text>
+<text x='9' y='234'>-</text>
+<text x='9' y='243'>1</text>
+<text x='42' y='198'>7_e_Meio</text>
+<text x='42' y='207'>prop</text>
+<text x='42' y='216'>prop</text>
+<text x='42' y='225'>7_e_Meio</text>
+<text x='42' y='234'>-</text>
+<text x='42' y='243'>2</text>
+<text x='81' y='198'>é</text>
+<text x='81' y='207'>v</text>
+<text x='81' y='216'>v-fin</text>
+<text x='81' y='225'>ser</text>
+<text x='81' y='234'>-</text>
+<text x='81' y='243'>3</text>
+<text x='105' y='198'>um</text>
+<text x='105' y='207'>art</text>
+<text x='105' y='216'>art</text>
+<text x='105' y='225'>um</text>
+<text x='105' y='234'>-</text>
+<text x='105' y='243'>4</text>
+<text x='141' y='198'>ex-libris</text>
+<text x='141' y='207'>n</text>
+<text x='141' y='216'>n</text>
+<text x='141' y='225'>ex-libris</text>
+<text x='141' y='234'>-</text>
+<text x='141' y='243'>5</text>
+<text x='177' y='198'>de</text>
+<text x='177' y='207'>prp</text>
+<text x='177' y='216'>prp</text>
+<text x='177' y='225'>de</text>
+<text x='177' y='234'>-</text>
+<text x='177' y='243'>6</text>
+<text x='195' y='198'>a</text>
+<text x='195' y='207'>art</text>
+<text x='195' y='216'>art</text>
+<text x='195' y='225'>o</text>
+<text x='195' y='234'>-</text>
+<text x='195' y='243'>7</text>
+<text x='219' y='198'>noite</text>
+<text x='219' y='207'>n</text>
+<text x='219' y='216'>n</text>
+<text x='219' y='225'>noite</text>
+<text x='219' y='234'>-</text>
+<text x='219' y='243'>8</text>
+<text x='258' y='198'>algarvia</text>
+<text x='258' y='207'>adj</text>
+<text x='258' y='216'>adj</text>
+<text x='258' y='225'>algarvio</text>
+<text x='258' y='234'>-</text>
+<text x='258' y='243'>9</text>
+<text x='294' y='198'>.</text>
+<text x='294' y='207'>punc</text>
+<text x='294' y='216'>punc</text>
+<text x='294' y='225'>.</text>
+<text x='294' y='234'>-</text>
+<text x='294' y='243'>10</text>
+</g>
+<g stroke='silver' stroke-dasharray='4'>
+<path d='M9 108 9 189'/>
+<path d='M42 72 42 189'/>
+<path d='M81 36 81 189'/>
+<path d='M105 108 105 189'/>
+<path d='M141 72 141 189'/>
+<path d='M177 108 177 189'/>
+<path d='M195 180 195 189'/>
+<path d='M219 144 219 189'/>
+<path d='M258 180 258 189'/>
+<path d='M294 72 294 189'/>
+</g>
+<g stroke='#f80' fill='none'>
+<path d='M81 36 141 72' marker-end="url(#a)"/>
+<path d='M0 0 81 36' marker-end="url(#a)"/>
+<path d='M219 144 258 180' marker-end="url(#a)"/>
+<path d='M141 72 177 108' marker-end="url(#a)"/>
+<path d='M81 36 294 72' marker-end="url(#a)"/>
+<path d='M177 108 219 144' marker-end="url(#a)"/>
+<path d='M81 36 42 72' marker-end="url(#a)"/>
+<path d='M219 144 195 180' marker-end="url(#a)"/>
+<path d='M42 72 9 108' marker-end="url(#a)"/>
+<path d='M141 72 105 108' marker-end="url(#a)"/>
+</g>
+<g stroke-width='0' fill='navy'>
+<text x="111" y="54">SC</text>
+<text x="40.5" y="18">STA</text>
+<text x="238.5" y="162">N&lt;</text>
+<text x="159" y="90">N&lt;</text>
+<text x="187.5" y="54">PUNC</text>
+<text x="198" y="126">P&lt;</text>
+<text x="61.5" y="54">SUBJ</text>
+<text x="207" y="162">&gt;N</text>
+<text x="25.5" y="90">&gt;N</text>
+<text x="123" y="90">&gt;N</text>
+</g>
+</g>
+</svg>

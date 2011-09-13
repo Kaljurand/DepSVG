@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox='0 0 684 198' width='684' height='198'>
+
+<title>.</title>
+<defs><marker id="a" viewbox="0 0 8 4" refX="8" refY="2" markerUnits="strokeWidth"
+markerWidth="8" markerHeight="4" orient="auto">
+<path d="M 0 0 L 8 2 L 0 4 Z" fill='#800'/>
+</marker>
+</defs>
+
+<g stroke-width='1px' stroke-linecap='butt' font-family='sans-serif' font-size='9px' text-anchor='middle' dominant-baseline='central' word-spacing='0px' letter-spacing='0px'>
+<g stroke-width='0' fill='black'>
+<text x='63' y='162'>These/DT, results/NNS</text>
+<text x='63' y='171'>results</text>
+<text x='63' y='180'>result</text>
+<text x='63' y='189'>NNS</text>
+<text x='63' y='198'>1</text>
+<text x='159' y='162'>suggest/VBP</text>
+<text x='159' y='171'>suggest</text>
+<text x='159' y='180'>suggest</text>
+<text x='159' y='189'>VBP</text>
+<text x='159' y='198'>2</text>
+<text x='204' y='162'>-</text>
+<text x='204' y='171'>that</text>
+<text x='204' y='180'>that</text>
+<text x='204' y='189'>IN</text>
+<text x='204' y='198'>3</text>
+<text x='240' y='162'>Fli-1/NN</text>
+<text x='240' y='171'>Fli-1</text>
+<text x='240' y='180'>fli-1</text>
+<text x='240' y='189'>NN</text>
+<text x='240' y='198'>4</text>
+<text x='282' y='162'>is/VBZ</text>
+<text x='282' y='171'>is</text>
+<text x='282' y='180'>be</text>
+<text x='282' y='189'>VBZ</text>
+<text x='282' y='198'>5</text>
+<text x='318' y='162'>-</text>
+<text x='318' y='171'>likely</text>
+<text x='318' y='180'>likely</text>
+<text x='318' y='189'>JJ</text>
+<text x='318' y='198'>6</text>
+<text x='390' y='162'>to/TO, regulate/VB</text>
+<text x='390' y='171'>regulate</text>
+<text x='390' y='180'>regulate</text>
+<text x='390' y='189'>VB</text>
+<text x='390' y='198'>7</text>
+<text x='471' y='162'>genes/NNS</text>
+<text x='471' y='171'>genes</text>
+<text x='471' y='180'>gene</text>
+<text x='471' y='189'>NNS</text>
+<text x='471' y='198'>8</text>
+<text x='516' y='162'>-</text>
+<text x='516' y='171'>during</text>
+<text x='516' y='180'>during</text>
+<text x='516' y='189'>IN</text>
+<text x='516' y='198'>9</text>
+<text x='603' y='162'>megakaryocytopoiesis/NN</text>
+<text x='603' y='171'>megakaryocytopoiesis</text>
+<text x='603' y='180'>megakaryocytopoiesis</text>
+<text x='603' y='189'>NN</text>
+<text x='603' y='198'>10</text>
+<text x='678' y='162' fill='red'>-</text>
+<text x='678' y='171' fill='red'>.</text>
+<text x='678' y='180' fill='red'>.</text>
+<text x='678' y='189' fill='red'>.</text>
+<text x='678' y='198' fill='red'>11</text>
+</g>
+<g stroke='silver' stroke-dasharray='4'>
+<path d='M63 36 63 153'/>
+<path d='M159 0 159 153'/>
+<path d='M204 72 204 153'/>
+<path d='M240 108 240 153'/>
+<path d='M282 36 282 153'/>
+<path d='M318 72 318 153'/>
+<path d='M390 72 390 153'/>
+<path d='M471 108 471 153'/>
+<path d='M516 144 516 153'/>
+<path d='M603 108 603 153'/>
+</g>
+<g stroke='#f80' fill='none'>
+<path d='M390 72 471 108' marker-end="url(#a)"/>
+<path d='M390 72 240 108' marker-end="url(#a)" stroke="olive"/>
+<path d='M282 36 318 72' marker-end="url(#a)"/>
+<path d='M603 108 516 144' marker-end="url(#a)"/>
+<path d='M159 0 63 36' marker-end="url(#a)"/>
+<path d='M282 36 240 108' marker-end="url(#a)"/>
+<path d='M282 36 204 72' marker-end="url(#a)"/>
+<path d='M159 0 282 36' marker-end="url(#a)"/>
+<path d='M282 36 390 72' marker-end="url(#a)"/>
+<path d='M390 72 603 108' marker-end="url(#a)"/>
+</g>
+<g stroke-width='0' fill='navy'>
+<text x="430.5" y="90">obj</text>
+<text x="315" y="90">c:subj</text>
+<text x="300" y="54">predadj</text>
+<text x="559.5" y="126">prep</text>
+<text x="111" y="18">subj</text>
+<text x="261" y="72">subj</text>
+<text x="243" y="54">compl</text>
+<text x="220.5" y="18">sentobj</text>
+<text x="336" y="54">sentobj</text>
+<text x="496.5" y="90">pobj</text>
+</g>
+</g>
+</svg>

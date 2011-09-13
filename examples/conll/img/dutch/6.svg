@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox='0 0 288 279' width='288' height='279'>
+
+<title>.</title>
+<defs><marker id="a" viewbox="0 0 8 4" refX="8" refY="2" markerUnits="strokeWidth"
+markerWidth="8" markerHeight="4" orient="auto">
+<path d="M 0 0 L 8 2 L 0 4 Z" fill='#800'/>
+</marker>
+</defs>
+
+<g stroke-width='1px' stroke-linecap='butt' font-family='sans-serif' font-size='9px' text-anchor='middle' dominant-baseline='central' word-spacing='0px' letter-spacing='0px'>
+<g stroke-width='0' fill='black'>
+<text x='12' y='234'>Zij</text>
+<text x='12' y='243'>Pron</text>
+<text x='12' y='252'>Pron</text>
+<text x='12' y='261'>zij</text>
+<text x='12' y='270'>-</text>
+<text x='12' y='279'>1</text>
+<text x='33' y='234'>zou</text>
+<text x='33' y='243'>V</text>
+<text x='33' y='252'>V</text>
+<text x='33' y='261'>zal</text>
+<text x='33' y='270'>-</text>
+<text x='33' y='279'>2</text>
+<text x='54' y='234'>mams</text>
+<text x='54' y='243'>N</text>
+<text x='54' y='252'>N</text>
+<text x='54' y='261'>mams</text>
+<text x='54' y='270'>-</text>
+<text x='54' y='279'>3</text>
+<text x='75' y='234'>rug</text>
+<text x='75' y='243'>N</text>
+<text x='75' y='252'>N</text>
+<text x='75' y='261'>rug</text>
+<text x='75' y='270'>-</text>
+<text x='75' y='279'>4</text>
+<text x='114' y='234'>ingewreven</text>
+<text x='114' y='243'>V</text>
+<text x='114' y='252'>V</text>
+<text x='114' y='261'>wrijf</text>
+<text x='114' y='270'>-</text>
+<text x='114' y='279'>5</text>
+<text x='162' y='234'>hebben</text>
+<text x='162' y='243'>V</text>
+<text x='162' y='252'>V</text>
+<text x='162' y='261'>heb</text>
+<text x='162' y='270'>-</text>
+<text x='162' y='279'>6</text>
+<text x='192' y='234'>en</text>
+<text x='192' y='243'>Conj</text>
+<text x='192' y='252'>Conj</text>
+<text x='192' y='261'>en</text>
+<text x='192' y='270'>-</text>
+<text x='192' y='279'>7</text>
+<text x='213' y='234'>mam</text>
+<text x='213' y='243'>V</text>
+<text x='213' y='252'>V</text>
+<text x='213' y='261'>mam</text>
+<text x='213' y='270'>-</text>
+<text x='213' y='279'>8</text>
+<text x='231' y='234'>de</text>
+<text x='231' y='243'>Art</text>
+<text x='231' y='252'>Art</text>
+<text x='231' y='261'>de</text>
+<text x='231' y='270'>-</text>
+<text x='231' y='279'>9</text>
+<text x='252' y='234'>hare</text>
+<text x='252' y='243'>Pron</text>
+<text x='252' y='252'>Pron</text>
+<text x='252' y='261'>hare</text>
+<text x='252' y='270'>-</text>
+<text x='252' y='279'>10</text>
+<text x='276' y='234'>.</text>
+<text x='276' y='243'>Punc</text>
+<text x='276' y='252'>Punc</text>
+<text x='276' y='261'>.</text>
+<text x='276' y='270'>-</text>
+<text x='276' y='279'>11</text>
+</g>
+<g stroke='silver' stroke-dasharray='4'>
+<path d='M12 108 12 225'/>
+<path d='M33 72 33 225'/>
+<path d='M54 216 54 225'/>
+<path d='M75 180 75 225'/>
+<path d='M114 144 114 225'/>
+<path d='M162 108 162 225'/>
+<path d='M192 36 192 225'/>
+<path d='M213 72 213 225'/>
+<path d='M231 144 231 225'/>
+<path d='M252 108 252 225'/>
+<path d='M276 144 276 225'/>
+</g>
+<g stroke='#f80' fill='none'>
+<path d='M0 0 192 36' marker-end="url(#a)"/>
+<path d='M162 108 114 144' marker-end="url(#a)"/>
+<path d='M33 72 162 108' marker-end="url(#a)"/>
+<path d='M192 36 213 72' marker-end="url(#a)"/>
+<path d='M192 36 33 72' marker-end="url(#a)"/>
+<path d='M33 72 12 108' marker-end="url(#a)"/>
+<path d='M252 108 276 144' marker-end="url(#a)"/>
+<path d='M213 72 252 108' marker-end="url(#a)"/>
+<path d='M114 144 75 180' marker-end="url(#a)"/>
+<path d='M75 180 54 216' marker-end="url(#a)"/>
+<path d='M252 108 231 144' marker-end="url(#a)"/>
+</g>
+<g stroke-width='0' fill='navy'>
+<text x="96" y="18">ROOT</text>
+<text x="138" y="126">vc</text>
+<text x="97.5" y="90">vc</text>
+<text x="202.5" y="54">cnj</text>
+<text x="112.5" y="54">cnj</text>
+<text x="22.5" y="90">su</text>
+<text x="264" y="126">punct</text>
+<text x="232.5" y="90">obj1</text>
+<text x="94.5" y="162">obj1</text>
+<text x="64.5" y="198">det</text>
+<text x="241.5" y="126">det</text>
+</g>
+</g>
+</svg>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox='0 0 162 171' width='162' height='171'>
+
+<title>.</title>
+<defs><marker id="a" viewbox="0 0 8 4" refX="8" refY="2" markerUnits="strokeWidth"
+markerWidth="8" markerHeight="4" orient="auto">
+<path d="M 0 0 L 8 2 L 0 4 Z" fill='#800'/>
+</marker>
+</defs>
+
+<g stroke-width='1px' stroke-linecap='butt' font-family='sans-serif' font-size='9px' text-anchor='middle' dominant-baseline='central' word-spacing='0px' letter-spacing='0px'>
+<g stroke-width='0' fill='black'>
+<text x='15' y='126'>Cathy</text>
+<text x='15' y='135'>N</text>
+<text x='15' y='144'>N</text>
+<text x='15' y='153'>Cathy</text>
+<text x='15' y='162'>-</text>
+<text x='15' y='171'>1</text>
+<text x='39' y='126'>zag</text>
+<text x='39' y='135'>V</text>
+<text x='39' y='144'>V</text>
+<text x='39' y='153'>zie</text>
+<text x='39' y='162'>-</text>
+<text x='39' y='171'>2</text>
+<text x='60' y='126'>hen</text>
+<text x='60' y='135'>Pron</text>
+<text x='60' y='144'>Pron</text>
+<text x='60' y='153'>hen</text>
+<text x='60' y='162'>-</text>
+<text x='60' y='171'>3</text>
+<text x='84' y='126'>wild</text>
+<text x='84' y='135'>Adj</text>
+<text x='84' y='144'>Adj</text>
+<text x='84' y='153'>wild</text>
+<text x='84' y='162'>-</text>
+<text x='84' y='171'>4</text>
+<text x='117' y='126'>zwaaien</text>
+<text x='117' y='135'>N</text>
+<text x='117' y='144'>N</text>
+<text x='117' y='153'>zwaai</text>
+<text x='117' y='162'>-</text>
+<text x='117' y='171'>5</text>
+<text x='150' y='126'>.</text>
+<text x='150' y='135'>Punc</text>
+<text x='150' y='144'>Punc</text>
+<text x='150' y='153'>.</text>
+<text x='150' y='162'>-</text>
+<text x='150' y='171'>6</text>
+</g>
+<g stroke='silver' stroke-dasharray='4'>
+<path d='M15 72 15 117'/>
+<path d='M39 36 39 117'/>
+<path d='M60 72 60 117'/>
+<path d='M84 108 84 117'/>
+<path d='M117 72 117 117'/>
+<path d='M150 108 150 117'/>
+</g>
+<g stroke='#f80' fill='none'>
+<path d='M39 36 117 72' marker-end="url(#a)"/>
+<path d='M0 0 39 36' marker-end="url(#a)"/>
+<path d='M39 36 15 72' marker-end="url(#a)"/>
+<path d='M117 72 150 108' marker-end="url(#a)"/>
+<path d='M39 36 60 72' marker-end="url(#a)"/>
+<path d='M117 72 84 108' marker-end="url(#a)"/>
+</g>
+<g stroke-width='0' fill='navy'>
+<text x="78" y="54">vc</text>
+<text x="19.5" y="18">ROOT</text>
+<text x="27" y="54">su</text>
+<text x="133.5" y="90">punct</text>
+<text x="49.5" y="54">obj1</text>
+<text x="100.5" y="90">mod</text>
+</g>
+</g>
+</svg>

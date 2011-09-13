@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox='0 0 246 207' width='246' height='207'>
+
+<title>.</title>
+<defs><marker id="a" viewbox="0 0 8 4" refX="8" refY="2" markerUnits="strokeWidth"
+markerWidth="8" markerHeight="4" orient="auto">
+<path d="M 0 0 L 8 2 L 0 4 Z" fill='#800'/>
+</marker>
+</defs>
+
+<g stroke-width='1px' stroke-linecap='butt' font-family='sans-serif' font-size='9px' text-anchor='middle' dominant-baseline='central' word-spacing='0px' letter-spacing='0px'>
+<g stroke-width='0' fill='black'>
+<text x='12' y='162'>Idag</text>
+<text x='12' y='171'>AB</text>
+<text x='12' y='180'>AB</text>
+<text x='12' y='189'>_</text>
+<text x='12' y='198'>-</text>
+<text x='12' y='207'>1</text>
+<text x='33' y='162'>är</text>
+<text x='33' y='171'>AV</text>
+<text x='33' y='180'>AV</text>
+<text x='33' y='189'>_</text>
+<text x='33' y='198'>-</text>
+<text x='33' y='207'>2</text>
+<text x='51' y='162'>det</text>
+<text x='51' y='171'>PO</text>
+<text x='51' y='180'>PO</text>
+<text x='51' y='189'>_</text>
+<text x='51' y='198'>-</text>
+<text x='51' y='207'>3</text>
+<text x='78' y='162'>mycket</text>
+<text x='78' y='171'>AB</text>
+<text x='78' y='180'>AB</text>
+<text x='78' y='189'>_</text>
+<text x='78' y='198'>-</text>
+<text x='78' y='207'>4</text>
+<text x='123' y='162'>hetsigare</text>
+<text x='123' y='171'>AJ</text>
+<text x='123' y='180'>AJ</text>
+<text x='123' y='189'>_</text>
+<text x='123' y='198'>-</text>
+<text x='123' y='207'>5</text>
+<text x='159' y='162'>och</text>
+<text x='159' y='171'>++</text>
+<text x='159' y='180'>++</text>
+<text x='159' y='189'>_</text>
+<text x='159' y='198'>-</text>
+<text x='159' y='207'>6</text>
+<text x='201' y='162'>stressigare</text>
+<text x='201' y='171'>AJ</text>
+<text x='201' y='180'>AJ</text>
+<text x='201' y='189'>_</text>
+<text x='201' y='198'>-</text>
+<text x='201' y='207'>7</text>
+<text x='240' y='162'>.</text>
+<text x='240' y='171'>IP</text>
+<text x='240' y='180'>IP</text>
+<text x='240' y='189'>_</text>
+<text x='240' y='198'>-</text>
+<text x='240' y='207'>8</text>
+</g>
+<g stroke='silver' stroke-dasharray='4'>
+<path d='M12 72 12 153'/>
+<path d='M33 36 33 153'/>
+<path d='M51 72 51 153'/>
+<path d='M78 108 78 153'/>
+<path d='M123 72 123 153'/>
+<path d='M159 144 159 153'/>
+<path d='M201 108 201 153'/>
+<path d='M240 72 240 153'/>
+</g>
+<g stroke='#f80' fill='none'>
+<path d='M123 72 201 108' marker-end="url(#a)"/>
+<path d='M0 0 33 36' marker-end="url(#a)"/>
+<path d='M123 72 78 108' marker-end="url(#a)"/>
+<path d='M201 108 159 144' marker-end="url(#a)"/>
+<path d='M33 36 123 72' marker-end="url(#a)"/>
+<path d='M33 36 240 72' marker-end="url(#a)"/>
+<path d='M33 36 12 72' marker-end="url(#a)"/>
+<path d='M33 36 51 72' marker-end="url(#a)"/>
+</g>
+<g stroke-width='0' fill='navy'>
+<text x="162" y="90">CC</text>
+<text x="16.5" y="18">ROOT</text>
+<text x="100.5" y="90">AA</text>
+<text x="180" y="126">++</text>
+<text x="78" y="54">SP</text>
+<text x="136.5" y="54">IP</text>
+<text x="22.5" y="54">TA</text>
+<text x="42" y="54">SS</text>
+</g>
+</g>
+</svg>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox='0 0 408 315' width='408' height='315'>
+
+<title>.</title>
+<defs><marker id="a" viewbox="0 0 8 4" refX="8" refY="2" markerUnits="strokeWidth"
+markerWidth="8" markerHeight="4" orient="auto">
+<path d="M 0 0 L 8 2 L 0 4 Z" fill='#800'/>
+</marker>
+</defs>
+
+<g stroke-width='1px' stroke-linecap='butt' font-family='sans-serif' font-size='9px' text-anchor='middle' dominant-baseline='central' word-spacing='0px' letter-spacing='0px'>
+<g stroke-width='0' fill='black'>
+<text x='12' y='270'>Ze</text>
+<text x='12' y='279'>Pron</text>
+<text x='12' y='288'>Pron</text>
+<text x='12' y='297'>ze</text>
+<text x='12' y='306'>-</text>
+<text x='12' y='315'>1</text>
+<text x='42' y='270'>hadden</text>
+<text x='42' y='279'>V</text>
+<text x='42' y='288'>V</text>
+<text x='42' y='297'>heb</text>
+<text x='42' y='306'>-</text>
+<text x='42' y='315'>2</text>
+<text x='81' y='270'>languit</text>
+<text x='81' y='279'>Adv</text>
+<text x='81' y='288'>Adv</text>
+<text x='81' y='297'>languit</text>
+<text x='81' y='306'>-</text>
+<text x='81' y='315'>3</text>
+<text x='117' y='270'>naast</text>
+<text x='117' y='279'>Prep</text>
+<text x='117' y='288'>Prep</text>
+<text x='117' y='297'>naast</text>
+<text x='117' y='306'>-</text>
+<text x='117' y='315'>4</text>
+<text x='150' y='270'>elkaar</text>
+<text x='150' y='279'>Pron</text>
+<text x='150' y='288'>Pron</text>
+<text x='150' y='297'>elkaar</text>
+<text x='150' y='306'>-</text>
+<text x='150' y='315'>5</text>
+<text x='180' y='270'>op</text>
+<text x='180' y='279'>Prep</text>
+<text x='180' y='288'>Prep</text>
+<text x='180' y='297'>op</text>
+<text x='180' y='306'>-</text>
+<text x='180' y='315'>6</text>
+<text x='201' y='270'>de</text>
+<text x='201' y='279'>Art</text>
+<text x='201' y='288'>Art</text>
+<text x='201' y='297'>de</text>
+<text x='201' y='306'>-</text>
+<text x='201' y='315'>7</text>
+<text x='249' y='270'>strandstoelen</text>
+<text x='249' y='279'>N</text>
+<text x='249' y='288'>N</text>
+<text x='249' y='297'>strandstoel</text>
+<text x='249' y='306'>-</text>
+<text x='249' y='315'>8</text>
+<text x='306' y='270'>kunnen</text>
+<text x='306' y='279'>V</text>
+<text x='306' y='288'>V</text>
+<text x='306' y='297'>kan</text>
+<text x='306' y='306'>-</text>
+<text x='306' y='315'>9</text>
+<text x='336' y='270'>gaan</text>
+<text x='336' y='279'>V</text>
+<text x='336' y='288'>V</text>
+<text x='336' y='297'>ga</text>
+<text x='336' y='306'>-</text>
+<text x='336' y='315'>10</text>
+<text x='366' y='270'>liggen</text>
+<text x='366' y='279'>V</text>
+<text x='366' y='288'>V</text>
+<text x='366' y='297'>lig</text>
+<text x='366' y='306'>-</text>
+<text x='366' y='315'>11</text>
+<text x='396' y='270'>.</text>
+<text x='396' y='279'>Punc</text>
+<text x='396' y='288'>Punc</text>
+<text x='396' y='297'>.</text>
+<text x='396' y='306'>-</text>
+<text x='396' y='315'>12</text>
+</g>
+<g stroke='silver' stroke-dasharray='4'>
+<path d='M12 72 12 261'/>
+<path d='M42 36 42 261'/>
+<path d='M81 180 81 261'/>
+<path d='M117 180 117 261'/>
+<path d='M150 216 150 261'/>
+<path d='M180 180 180 261'/>
+<path d='M201 252 201 261'/>
+<path d='M249 216 249 261'/>
+<path d='M306 72 306 261'/>
+<path d='M336 108 336 261'/>
+<path d='M366 144 366 261'/>
+<path d='M396 180 396 261'/>
+</g>
+<g stroke='#f80' fill='none'>
+<path d='M336 108 366 144' marker-end="url(#a)"/>
+<path d='M306 72 336 108' marker-end="url(#a)"/>
+<path d='M42 36 306 72' marker-end="url(#a)"/>
+<path d='M42 36 12 72' marker-end="url(#a)"/>
+<path d='M249 216 201 252' marker-end="url(#a)"/>
+<path d='M0 0 42 36' marker-end="url(#a)"/>
+<path d='M366 144 180 180' marker-end="url(#a)"/>
+<path d='M366 144 396 180' marker-end="url(#a)"/>
+<path d='M180 180 249 216' marker-end="url(#a)"/>
+<path d='M117 180 150 216' marker-end="url(#a)"/>
+<path d='M366 144 117 180' marker-end="url(#a)"/>
+<path d='M366 144 81 180' marker-end="url(#a)"/>
+</g>
+<g stroke-width='0' fill='navy'>
+<text x="351" y="126">vc</text>
+<text x="321" y="90">vc</text>
+<text x="174" y="54">vc</text>
+<text x="27" y="54">su</text>
+<text x="225" y="234">det</text>
+<text x="21" y="18">ROOT</text>
+<text x="273" y="162">ld</text>
+<text x="381" y="162">punct</text>
+<text x="214.5" y="198">obj1</text>
+<text x="133.5" y="198">obj1</text>
+<text x="241.5" y="162">mod</text>
+<text x="223.5" y="162">mod</text>
+</g>
+</g>
+</svg>

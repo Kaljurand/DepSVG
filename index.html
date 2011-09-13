@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>DepSVG</title>
+<meta name="Author" content="Kaarel Kaljurand"/>
+
+<script type="text/javascript"
+src="http://kaljurand.github.com/toc.js/toc.js"></script>
+
+<style type="text/css">
+h1, h2, h3 { font-family: sans-serif }
+pre { padding: 1em 1em 1em 1em; color: inherit; background-color: #eee; border: 1px solid silver }
+body { font-family: serif; margin: 1em 1em 1em 1em; }
+address { border-top: 1px solid black; margin-top: 2em; padding-top: 0.5em }
+</style>
+</head>
+
+<body onload="toc(1, true)">
+
+<h1>DepSVG</h1>
+
+<h2>Introduction</h2>
+
+<p>This page describes a dependency tree and predicate-argument structure visualizer
+which is implemented in Perl and saves into
+<a href="http://www.w3.org/Graphics/SVG/">Scalable Vector Graphics (SVG)</a>.
+There are different ways to visualize dependency trees
+(e.g. Prague school, Melchuk, Connexor, Link Grammar, etc).
+Our inspiration has been the trees from
+the papers by Duchier and Debusmann, see e.g.
+<a href="http://www.ps.uni-sb.de/~rade/xdg.html">XDG</a>.</p>
+
+<div class="image">
+<img src="examples/3.png" alt="Example output"/>
+</div>
+
+<p>The words of the sentence are represented as nodes in a graph. Each node can have several properties which correspond to the properties of the word, such as the lemma form, the position in the sentence, the part-of-speech
+tag, etc.
+The dependencies are represented as arcs which connect the nodes.
+Each arc has a label for the dependency type.</p>
+
+<p>DepSVG can also handle words with multiple heads. In the following
+picture, 'Fli-1' is both a subject and a control subject.</p>
+
+<div class="image">
+<img src="examples/m99211949-s10.png" alt="Example output with multiple heads"/>
+</div>
+
+
+<h2>Download, install, usage</h2>
+
+<p>DepSVG is hosted by GitHub and can be downloaded
+from <a href="https://github.com/Kaljurand/DepSVG">here</a>.
+This page also contains a usage example.</p>
+
+<!--
+<ul>
+<li><a href="code/DepSVG.pm">DepSVG.pm</a>: The main Perl module.</li>
+<li><a href="code/DepUtils.pm">DepUtils.pm</a>: Perl module required by <code>DepSVG.pm</code>.</li>
+<li><a href="code/conll_to_svg.perl">conll_to_svg.perl</a>: an example front-end to the
+Perl modules. It expects the CoNLL-formatted data as input.
+See the source for more information.</li>
+</ul>
+
+<p>In order to install:</p>
+
+<ul>
+<li>Install Perl (if not already present)</li>
+<li>Add the directory containing <code>conll_to_svg.perl</code> to the <code>$PATH</code></li>
+<li>Make the pm-modules reachable, e.g. via <code>$PERL5LIB</code>. If they are in the current
+directory then they are also reachable.</li>
+</ul>
+
+<p>Use e.g. by:</p>
+
+<pre>
+perl conll_to_svg.perl &lt; examples/conll/data/swedish_talbanken05_train.test
+</pre>
+
+<p>The directory <code>SVG/</code> will contain the SVG files,
+one for each sentence.</p>
+-->
+
+
+<h2>Examples</h2>
+
+<h3>DepSVG applied to the CoNLL data</h3>
+
+<ul>
+<li><a href="examples/conll/data/">data/</a>: CoNLL06 training data for 
+the <a href="http://nextens.uvt.nl/~conll/free_data.html">free languages</a>
+(about 100 first lines of each corpus)</li>
+<li><a href="examples/conll/img/">img/</a>: sample output as both SVG and PNG images</li>
+<!--
+<li><a href="protected/img/bulgarian/6.svg">protected/img/bulgarian/6.svg</a>
+(<a href="protected/img/bulgarian/6.png">PNG</a>): an example where a token has 2 heads (token number 1). Note that Bulgarian is not one of the free
+languages. The link to it will be removed once this page goes public.</li>
+-->
+</ul>
+
+<p>Some notes:</p>
+
+<ul>
+<li>The <em>morph</em>-column is not included in the SVG (for layout purposes)</li>
+<li>The output has been tested with Safari 3.1.1, Firefox 2.0.0.14, and Opera 9.26.</li>
+<li>The png-formatted images were generated with Batik Rasterizer, by:
+<pre>
+java -mx1024m -jar batik-rasterizer.jar -m image/png -d . *.svg
+</pre>
+Note that Batik Rasterizer can also produce PDF-files (if you need a scalable
+image which is not SVG).</li>
+</ul>
+
+
+<h2>See also</h2>
+
+<ul>
+<li><a href="http://nextens.uvt.nl/~conll/software.html#conlltab2dot">conlltab2dot</a></li>
+<li><a href="http://quest.ms.mff.cuni.cz/netgraph/indexEn.html">Netgraph</a></li>
+<li><a href="http://www.connexor.com/nlplib/?q=demo/syntax">Connexor Machinese Syntax demo</a></li>
+<li><a href="http://www.coli.uni-sb.de/sfb378/negra-corpus/annotate.html">Annotate</a></li>
+<li><a href="http://www.ims.uni-stuttgart.de/projekte/TIGER/TIGERSearch/">TIGERSearch</a></li>
+<li><a href="http://www.id.cbs.dk/~mtk/DGgraph/">DGgraph</a> (link broken)</li>
+</ul>
+
+
+<address>
+Kaarel Kaljurand (kaljurand@gmail.com),
+2011-09-13
+</address>
+
+</body>
+</html>

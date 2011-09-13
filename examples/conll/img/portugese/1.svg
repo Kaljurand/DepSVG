@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox='0 0 150 135' width='150' height='135'>
+
+<title>.</title>
+<defs><marker id="a" viewbox="0 0 8 4" refX="8" refY="2" markerUnits="strokeWidth"
+markerWidth="8" markerHeight="4" orient="auto">
+<path d="M 0 0 L 8 2 L 0 4 Z" fill='#800'/>
+</marker>
+</defs>
+
+<g stroke-width='1px' stroke-linecap='butt' font-family='sans-serif' font-size='9px' text-anchor='middle' dominant-baseline='central' word-spacing='0px' letter-spacing='0px'>
+<g stroke-width='0' fill='black'>
+<text x='9' y='90'>Um</text>
+<text x='9' y='99'>art</text>
+<text x='9' y='108'>art</text>
+<text x='9' y='117'>um</text>
+<text x='9' y='126'>-</text>
+<text x='9' y='135'>1</text>
+<text x='51' y='90'>revivalismo</text>
+<text x='51' y='99'>n</text>
+<text x='51' y='108'>n</text>
+<text x='51' y='117'>revivalismo</text>
+<text x='51' y='126'>-</text>
+<text x='51' y='135'>2</text>
+<text x='117' y='90'>refrescante</text>
+<text x='117' y='99'>adj</text>
+<text x='117' y='108'>adj</text>
+<text x='117' y='117'>refrescante</text>
+<text x='117' y='126'>-</text>
+<text x='117' y='135'>3</text>
+</g>
+<g stroke='silver' stroke-dasharray='4'>
+<path d='M9 72 9 81'/>
+<path d='M51 36 51 81'/>
+<path d='M117 72 117 81'/>
+</g>
+<g stroke='#f80' fill='none'>
+<path d='M0 0 51 36' marker-end="url(#a)"/>
+<path d='M51 36 117 72' marker-end="url(#a)"/>
+<path d='M51 36 9 72' marker-end="url(#a)"/>
+</g>
+<g stroke-width='0' fill='navy'>
+<text x="25.5" y="18">UTT</text>
+<text x="84" y="54">N&lt;</text>
+<text x="30" y="54">&gt;N</text>
+</g>
+</g>
+</svg>

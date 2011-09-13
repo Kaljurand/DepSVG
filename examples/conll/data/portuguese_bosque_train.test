@@ -1,0 +1,44 @@
+1	Um	um	art	art	<arti>|M|S	2	>N	_	_
+2	revivalismo	revivalismo	n	n	M|S	0	UTT	_	_
+3	refrescante	refrescante	adj	adj	M|S	2	N<	_	_
+
+1	O	o	art	art	<artd>|M|S	2	>N	_	_
+2	7_e_Meio	7_e_Meio	prop	prop	M|S	3	SUBJ	_	_
+3	é	ser	v	v-fin	PR|3S|IND	0	STA	_	_
+4	um	um	art	art	<arti>|M|S	5	>N	_	_
+5	ex-libris	ex-libris	n	n	M|P	3	SC	_	_
+6	de	de	prp	prp	<sam->	5	N<	_	_
+7	a	o	art	art	<-sam>|<artd>|S	8	>N	_	_
+8	noite	noite	n	n	F|S	6	P<	_	_
+9	algarvia	algarvio	adj	adj	F|S	8	N<	_	_
+10	.	.	punc	punc	_	3	PUNC	_	_
+
+1	É	ser	v	v-fin	PR|3S|IND	0	STA	_	_
+2	uma	um	num	num	<card>|F|S	1	SC	_	_
+3	de	de	prp	prp	<sam->	2	A<	_	_
+4	as	o	art	art	<-sam>|<artd>|P	7	>N	_	_
+5	mais	mais	adv	adv	<quant>	6	>A	_	_
+6	antigas	antigo	adj	adj	F|P	7	>N	_	_
+7	discotecas	discoteca	n	n	F|P	3	P<	_	_
+8	de	de	prp	prp	<sam->	7	N<	_	_
+9	o	o	art	art	<-sam>|<artd>|M|S	10	>N	_	_
+10	Algarve	Algarve	prop	prop	F|S	8	P<	_	_
+11	,	,	punc	punc	_	2	PUNC	_	_
+12	situada	situar	v	v-pcp	F|S	2	A<	_	_
+13	em	em	prp	prp	_	12	ADVL	_	_
+14	Albufeira	Albufeira	prop	prop	F|S	13	P<	_	_
+15	,	,	punc	punc	_	2	PUNC	_	_
+16	que	que	pron	pron-indp	<rel>|F|S	17	SUBJ	_	_
+17	continua	continuar	v	v-fin	PR|3S|IND	2	A<	_	_
+18	a	a	prp	prp	_	17	PRT-AUX<	_	_
+19	manter	manter	v	v-inf	_	17	MV	_	_
+20	os	o	art	art	<artd>|M|P	21	>N	_	_
+21	traços	traço	n	n	M|P	19	ACC	_	_
+22	decorativos	decorativo	adj	adj	M|P	21	N<	_	_
+23	e	e	conj	conj-c	<co-acc>	21	CO	_	_
+24	as	o	art	art	<artd>|F|P	25	>N	_	_
+25	clientelas	clientela	n	n	F|P	21	CJT	_	_
+26	de	de	prp	prp	_	25	N<	_	_
+27	sempre	sempre	adv	adv	_	26	P<	_	_
+28	.	.	punc	punc	_	1	PUNC	_	_
+

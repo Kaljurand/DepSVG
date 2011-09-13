@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox='0 0 354 279' width='354' height='279'>
+
+<title>.</title>
+<defs><marker id="a" viewbox="0 0 8 4" refX="8" refY="2" markerUnits="strokeWidth"
+markerWidth="8" markerHeight="4" orient="auto">
+<path d="M 0 0 L 8 2 L 0 4 Z" fill='#800'/>
+</marker>
+</defs>
+
+<g stroke-width='1px' stroke-linecap='butt' font-family='sans-serif' font-size='9px' text-anchor='middle' dominant-baseline='central' word-spacing='0px' letter-spacing='0px'>
+<g stroke-width='0' fill='black'>
+<text x='6' y='234'>&quot;</text>
+<text x='6' y='243'>X</text>
+<text x='6' y='252'>XP</text>
+<text x='6' y='261'>_</text>
+<text x='6' y='270'>-</text>
+<text x='6' y='279'>1</text>
+<text x='45' y='234'>Kina-kampen</text>
+<text x='45' y='243'>N</text>
+<text x='45' y='252'>NC</text>
+<text x='45' y='261'>_</text>
+<text x='45' y='270'>-</text>
+<text x='45' y='279'>2</text>
+<text x='87' y='234'>var</text>
+<text x='87' y='243'>V</text>
+<text x='87' y='252'>VA</text>
+<text x='87' y='261'>_</text>
+<text x='87' y='270'>-</text>
+<text x='87' y='279'>3</text>
+<text x='102' y='234'>en</text>
+<text x='102' y='243'>P</text>
+<text x='102' y='252'>PI</text>
+<text x='102' y='261'>_</text>
+<text x='102' y='270'>-</text>
+<text x='102' y='279'>4</text>
+<text x='135' y='234'>oplevelse</text>
+<text x='135' y='243'>N</text>
+<text x='135' y='252'>NC</text>
+<text x='135' y='261'>_</text>
+<text x='135' y='270'>-</text>
+<text x='135' y='279'>5</text>
+<text x='168' y='234'>,</text>
+<text x='168' y='243'>X</text>
+<text x='168' y='252'>XP</text>
+<text x='168' y='261'>_</text>
+<text x='168' y='270'>-</text>
+<text x='168' y='279'>6</text>
+<text x='189' y='234'>ingen</text>
+<text x='189' y='243'>P</text>
+<text x='189' y='252'>PI</text>
+<text x='189' y='261'>_</text>
+<text x='189' y='270'>-</text>
+<text x='189' y='279'>7</text>
+<text x='210' y='234'>af</text>
+<text x='210' y='243'>SP</text>
+<text x='210' y='252'>SP</text>
+<text x='210' y='261'>_</text>
+<text x='210' y='270'>-</text>
+<text x='210' y='279'>8</text>
+<text x='222' y='234'>os</text>
+<text x='222' y='243'>P</text>
+<text x='222' y='252'>PP</text>
+<text x='222' y='261'>_</text>
+<text x='222' y='270'>-</text>
+<text x='222' y='279'>9</text>
+<text x='243' y='234'>nogen</text>
+<text x='243' y='243'>P</text>
+<text x='243' y='252'>PI</text>
+<text x='243' y='261'>_</text>
+<text x='243' y='270'>-</text>
+<text x='243' y='279'>10</text>
+<text x='273' y='234'>sinde</text>
+<text x='273' y='243'>N</text>
+<text x='273' y='252'>NC</text>
+<text x='273' y='261'>_</text>
+<text x='273' y='270'>-</text>
+<text x='273' y='279'>11</text>
+<text x='297' y='234'>vil</text>
+<text x='297' y='243'>V</text>
+<text x='297' y='252'>VA</text>
+<text x='297' y='261'>_</text>
+<text x='297' y='270'>-</text>
+<text x='297' y='279'>12</text>
+<text x='324' y='234'>glemme</text>
+<text x='324' y='243'>V</text>
+<text x='324' y='252'>VA</text>
+<text x='324' y='261'>_</text>
+<text x='324' y='270'>-</text>
+<text x='324' y='279'>13</text>
+<text x='348' y='234'>.</text>
+<text x='348' y='243'>X</text>
+<text x='348' y='252'>XP</text>
+<text x='348' y='261'>_</text>
+<text x='348' y='270'>-</text>
+<text x='348' y='279'>14</text>
+</g>
+<g stroke='silver' stroke-dasharray='4'>
+<path d='M6 72 6 225'/>
+<path d='M45 72 45 225'/>
+<path d='M87 36 87 225'/>
+<path d='M102 72 102 225'/>
+<path d='M135 108 135 225'/>
+<path d='M168 108 168 225'/>
+<path d='M189 144 189 225'/>
+<path d='M210 180 210 225'/>
+<path d='M222 216 222 225'/>
+<path d='M243 144 243 225'/>
+<path d='M273 180 273 225'/>
+<path d='M297 108 297 225'/>
+<path d='M324 144 324 225'/>
+<path d='M348 72 348 225'/>
+</g>
+<g stroke='#f80' fill='none'>
+<path d='M102 72 297 108' marker-end="url(#a)"/>
+<path d='M210 180 222 216' marker-end="url(#a)"/>
+<path d='M102 72 135 108' marker-end="url(#a)"/>
+<path d='M243 144 273 180' marker-end="url(#a)"/>
+<path d='M87 36 45 72' marker-end="url(#a)"/>
+<path d='M297 108 189 144' marker-end="url(#a)"/>
+<path d='M0 0 87 36' marker-end="url(#a)"/>
+<path d='M102 72 168 108' marker-end="url(#a)"/>
+<path d='M87 36 6 72' marker-end="url(#a)"/>
+<path d='M87 36 348 72' marker-end="url(#a)"/>
+<path d='M297 108 324 144' marker-end="url(#a)"/>
+<path d='M87 36 102 72' marker-end="url(#a)"/>
+<path d='M189 144 210 180' marker-end="url(#a)"/>
+<path d='M297 108 243 144' marker-end="url(#a)"/>
+</g>
+<g stroke-width='0' fill='navy'>
+<text x="199.5" y="90">rel</text>
+<text x="216" y="198">nobj</text>
+<text x="118.5" y="90">nobj</text>
+<text x="258" y="162">nobj</text>
+<text x="66" y="54">subj</text>
+<text x="243" y="126">subj</text>
+<text x="43.5" y="18">ROOT</text>
+<text x="135" y="90">pnct</text>
+<text x="46.5" y="54">pnct</text>
+<text x="217.5" y="54">pnct</text>
+<text x="310.5" y="126">vobj</text>
+<text x="94.5" y="54">pred</text>
+<text x="199.5" y="162">pobj</text>
+<text x="270" y="126">mod</text>
+</g>
+</g>
+</svg>

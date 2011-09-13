@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox='0 0 546 351' width='546' height='351'>
+
+<title>.</title>
+<defs><marker id="a" viewbox="0 0 8 4" refX="8" refY="2" markerUnits="strokeWidth"
+markerWidth="8" markerHeight="4" orient="auto">
+<path d="M 0 0 L 8 2 L 0 4 Z" fill='#800'/>
+</marker>
+</defs>
+
+<g stroke-width='1px' stroke-linecap='butt' font-family='sans-serif' font-size='9px' text-anchor='middle' dominant-baseline='central' word-spacing='0px' letter-spacing='0px'>
+<g stroke-width='0' fill='black'>
+<text x='12' y='306'>Of</text>
+<text x='12' y='315'>Conj</text>
+<text x='12' y='324'>Conj</text>
+<text x='12' y='333'>of</text>
+<text x='12' y='342'>-</text>
+<text x='12' y='351'>1</text>
+<text x='36' y='306'>ze</text>
+<text x='36' y='315'>Pron</text>
+<text x='36' y='324'>Pron</text>
+<text x='36' y='333'>ze</text>
+<text x='36' y='342'>-</text>
+<text x='36' y='351'>2</text>
+<text x='57' y='306'>had</text>
+<text x='57' y='315'>V</text>
+<text x='57' y='324'>V</text>
+<text x='57' y='333'>heb</text>
+<text x='57' y='342'>-</text>
+<text x='57' y='351'>3</text>
+<text x='84' y='306'>gewoon</text>
+<text x='84' y='315'>Adj</text>
+<text x='84' y='324'>Adj</text>
+<text x='84' y='333'>gewoon</text>
+<text x='84' y='342'>-</text>
+<text x='84' y='351'>4</text>
+<text x='114' y='306'>met</text>
+<text x='114' y='315'>Prep</text>
+<text x='114' y='324'>Prep</text>
+<text x='114' y='333'>met</text>
+<text x='114' y='342'>-</text>
+<text x='114' y='351'>5</text>
+<text x='138' y='306'>haar</text>
+<text x='138' y='315'>Pron</text>
+<text x='138' y='324'>Pron</text>
+<text x='138' y='333'>haar</text>
+<text x='138' y='342'>-</text>
+<text x='138' y='351'>6</text>
+<text x='183' y='306'>vriendinnen</text>
+<text x='183' y='315'>N</text>
+<text x='183' y='324'>N</text>
+<text x='183' y='333'>vriendin</text>
+<text x='183' y='342'>-</text>
+<text x='183' y='351'>7</text>
+<text x='228' y='306'>rond</text>
+<text x='228' y='315'>Adv</text>
+<text x='228' y='324'>Adv</text>
+<text x='228' y='333'>rond</text>
+<text x='228' y='342'>-</text>
+<text x='228' y='351'>8</text>
+<text x='258' y='306'>kunnen</text>
+<text x='258' y='315'>V</text>
+<text x='258' y='324'>V</text>
+<text x='258' y='333'>kan</text>
+<text x='258' y='342'>-</text>
+<text x='258' y='351'>9</text>
+<text x='303' y='306'>slenteren</text>
+<text x='303' y='315'>V</text>
+<text x='303' y='324'>V</text>
+<text x='303' y='333'>slenter</text>
+<text x='303' y='342'>-</text>
+<text x='303' y='351'>10</text>
+<text x='342' y='306'>in</text>
+<text x='342' y='315'>Prep</text>
+<text x='342' y='324'>Prep</text>
+<text x='342' y='333'>in</text>
+<text x='342' y='342'>-</text>
+<text x='342' y='351'>11</text>
+<text x='363' y='306'>de</text>
+<text x='363' y='315'>Art</text>
+<text x='363' y='324'>Art</text>
+<text x='363' y='333'>de</text>
+<text x='363' y='342'>-</text>
+<text x='363' y='351'>12</text>
+<text x='387' y='306'>buurt</text>
+<text x='387' y='315'>N</text>
+<text x='387' y='324'>N</text>
+<text x='387' y='333'>buurt</text>
+<text x='387' y='342'>-</text>
+<text x='387' y='351'>13</text>
+<text x='414' y='306'>van</text>
+<text x='414' y='315'>Prep</text>
+<text x='414' y='324'>Prep</text>
+<text x='414' y='333'>van</text>
+<text x='414' y='342'>-</text>
+<text x='414' y='351'>14</text>
+<text x='474' y='306'>Trafalgar_Square</text>
+<text x='474' y='315'>MWU</text>
+<text x='474' y='324'>N_N</text>
+<text x='474' y='333'>Trafalgar_Square</text>
+<text x='474' y='342'>-</text>
+<text x='474' y='351'>15</text>
+<text x='534' y='306'>.</text>
+<text x='534' y='315'>Punc</text>
+<text x='534' y='324'>Punc</text>
+<text x='534' y='333'>.</text>
+<text x='534' y='342'>-</text>
+<text x='534' y='351'>16</text>
+</g>
+<g stroke='silver' stroke-dasharray='4'>
+<path d='M12 36 12 297'/>
+<path d='M36 72 36 297'/>
+<path d='M57 36 57 297'/>
+<path d='M84 144 84 297'/>
+<path d='M114 144 114 297'/>
+<path d='M138 216 138 297'/>
+<path d='M183 180 183 297'/>
+<path d='M228 144 228 297'/>
+<path d='M258 72 258 297'/>
+<path d='M303 108 303 297'/>
+<path d='M342 144 342 297'/>
+<path d='M363 216 363 297'/>
+<path d='M387 180 387 297'/>
+<path d='M414 216 414 297'/>
+<path d='M474 252 474 297'/>
+<path d='M534 288 534 297'/>
+</g>
+<g stroke='#f80' fill='none'>
+<path d='M57 36 258 72' marker-end="url(#a)"/>
+<path d='M258 72 303 108' marker-end="url(#a)"/>
+<path d='M57 36 36 72' marker-end="url(#a)"/>
+<path d='M0 0 12 36' marker-end="url(#a)"/>
+<path d='M0 0 57 36' marker-end="url(#a)"/>
+<path d='M474 252 534 288' marker-end="url(#a)"/>
+<path d='M303 108 228 144' marker-end="url(#a)"/>
+<path d='M342 144 387 180' marker-end="url(#a)"/>
+<path d='M414 216 474 252' marker-end="url(#a)"/>
+<path d='M114 144 183 180' marker-end="url(#a)"/>
+<path d='M183 180 138 216' marker-end="url(#a)"/>
+<path d='M387 180 363 216' marker-end="url(#a)"/>
+<path d='M387 180 414 216' marker-end="url(#a)"/>
+<path d='M303 108 342 144' marker-end="url(#a)"/>
+<path d='M303 108 84 144' marker-end="url(#a)"/>
+<path d='M303 108 114 144' marker-end="url(#a)"/>
+</g>
+<g stroke-width='0' fill='navy'>
+<text x="157.5" y="54">vc</text>
+<text x="280.5" y="90">vc</text>
+<text x="46.5" y="54">su</text>
+<text x="6" y="18">ROOT</text>
+<text x="28.5" y="18">ROOT</text>
+<text x="504" y="270">punct</text>
+<text x="265.5" y="126">svp</text>
+<text x="364.5" y="162">obj1</text>
+<text x="444" y="234">obj1</text>
+<text x="148.5" y="162">obj1</text>
+<text x="160.5" y="198">det</text>
+<text x="375" y="198">det</text>
+<text x="400.5" y="198">mod</text>
+<text x="322.5" y="126">mod</text>
+<text x="193.5" y="126">mod</text>
+<text x="208.5" y="126">mod</text>
+</g>
+</g>
+</svg>
