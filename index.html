@@ -57,49 +57,16 @@ picture, 'Fli-1' is both a subject and a control subject.</p>
 from <a href="https://github.com/Kaljurand/DepSVG">here</a>.
 This page also contains a usage example.</p>
 
-<!--
-<ul>
-<li><a href="code/DepSVG.pm">DepSVG.pm</a>: The main Perl module.</li>
-<li><a href="code/DepUtils.pm">DepUtils.pm</a>: Perl module required by <code>DepSVG.pm</code>.</li>
-<li><a href="code/conll_to_svg.perl">conll_to_svg.perl</a>: an example front-end to the
-Perl modules. It expects the CoNLL-formatted data as input.
-See the source for more information.</li>
-</ul>
-
-<p>In order to install:</p>
-
-<ul>
-<li>Install Perl (if not already present)</li>
-<li>Add the directory containing <code>conll_to_svg.perl</code> to the <code>$PATH</code></li>
-<li>Make the pm-modules reachable, e.g. via <code>$PERL5LIB</code>. If they are in the current
-directory then they are also reachable.</li>
-</ul>
-
-<p>Use e.g. by:</p>
-
-<pre>
-perl conll_to_svg.perl &lt; examples/conll/data/swedish_talbanken05_train.test
-</pre>
-
-<p>The directory <code>SVG/</code> will contain the SVG files,
-one for each sentence.</p>
--->
-
 
 <h2>Examples</h2>
 
 <h3>DepSVG applied to the CoNLL data</h3>
 
 <ul>
-<li><a href="examples/conll/data/">data/</a>: CoNLL06 training data for 
+<li><a href="examples/conll/data/index.html">data/</a>: CoNLL06 training data for 
 the <a href="http://nextens.uvt.nl/~conll/free_data.html">free languages</a>
 (about 100 first lines of each corpus)</li>
-<li><a href="examples/conll/img/">img/</a>: sample output as both SVG and PNG images</li>
-<!--
-<li><a href="protected/img/bulgarian/6.svg">protected/img/bulgarian/6.svg</a>
-(<a href="protected/img/bulgarian/6.png">PNG</a>): an example where a token has 2 heads (token number 1). Note that Bulgarian is not one of the free
-languages. The link to it will be removed once this page goes public.</li>
--->
+<li><a href="examples/conll/img/index.html">img/</a>: sample output as both SVG and PNG images</li>
 </ul>
 
 <p>Some notes:</p>
@@ -115,6 +82,15 @@ Note that Batik Rasterizer can also produce PDF-files (if you need a scalable
 image which is not SVG).</li>
 </ul>
 
+
+<h2>DepSVG in action</h2>
+
+<p>Tools/resources that use DepSVG:</p>
+
+<ul>
+<li><a href="http://kitt.cl.uzh.ch/kitt/parzu/">ParZu - The Zurich Dependency Parser for German</a></li>
+<li>...</li>
+</ul>
 
 <h2>See also</h2>
 
