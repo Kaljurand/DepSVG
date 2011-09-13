@@ -3,9 +3,8 @@ DepSVG
 
 DepSVG is a dependency tree and predicate-argument structure visualizer which
 is implemented in Perl and saves into Scalable Vector Graphics (SVG).
-There are different ways to visualize dependency trees (e.g. Prague school,
-Melchuk, Connexor, Link Grammar, etc). Our inspiration has been the trees
-from the papers by Duchier and Debusmann, see e.g. XDG.
+
+Read more at http://kaljurand.github.com/DepSVG/
 
 
 Usage
@@ -20,17 +19,8 @@ visualizes each tree in `demo/treebank.tsv` and saves it as
 an SVG file into the directory `img`.
 
 
-DepSVG in action
-----------------
-
-* [ParZu - The Zurich Dependency Parser for German][1]
-
-
 License
 -------
 
 DepSVG is free software licensed under the GNU Lesser General Public Licence (see
 http://www.gnu.org/licenses/lgpl.html).
-
-
-[1]: http://kitt.cl.uzh.ch/kitt/parzu/
