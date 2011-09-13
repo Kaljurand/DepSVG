@@ -1,8 +1,11 @@
+# This module is part of DepSVG.
+# Copyright 2008 Kaarel Kaljurand, University of Zurich
+#
+# Author: Kaarel Kaljurand
+# Version: 2008-05-18
+#
 # A library to handle a representation of a dependency structure
 # (which is basically a graph).
-
-# Kaarel Kaljurand
-# Mon Jan 24 19:00:12 CET 2005
 
 package DepUtils;
 
@@ -72,11 +75,9 @@ sub get_dep2heads
 	my $r = shift;
 	my $h = {};
 
-	foreach my $rel (keys %{$r}) {
-		foreach my $head (keys %{$r->{$rel}}) {
-			foreach my $dep (keys %{$r->{$rel}->{$head}}) {
-				$h->{$dep}->{$head} = 1;
-			}
+	foreach my $head (keys %{$r}) {
+		foreach my $dep (keys %{$r->{$head}}) {
+			$h->{$dep}->{$head} = 1;
 		}
 	}
 	return $h;
@@ -90,11 +91,9 @@ sub get_head2deps
 	my $r = shift;
 	my $h = {};
 
-	foreach my $rel (keys %{$r}) {
-		foreach my $head (keys %{$r->{$rel}}) {
-			foreach my $dep (keys %{$r->{$rel}->{$head}}) {
-				$h->{$head}->{$dep} = 1;
-			}
+	foreach my $head (keys %{$r}) {
+		foreach my $dep (keys %{$r->{$head}}) {
+			$h->{$head}->{$dep} = 1;
 		}
 	}
 	return $h;

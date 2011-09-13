@@ -1,0 +1,369 @@
+1	Глава	_	N	Nc	_	0	ROOT	0	ROOT
+2	трета	_	M	Mo	gen=f|num=s|def=i	1	mod	1	mod
+
+1	НАРОДНО	_	A	An	gen=n|num=s|def=i	2	mod	2	mod
+2	СЪБРАНИЕ	_	N	Nc	gen=n|num=s|def=i	0	ROOT	0	ROOT
+
+1	Народното	_	A	An	gen=n|num=s|def=d	2	mod	2	mod
+2	събрание	_	N	Nc	gen=n|num=s|def=i	3	subj	3	subj
+3	осъществява	_	V	Vpi	trans=t|mood=i|tense=r|pers=3|num=s	0	ROOT	0	ROOT
+4	законодателната	_	A	Af	gen=f|num=s|def=d	5	mod	5	mod
+5	власт	_	N	Nc	_	3	obj	3	obj
+6	и	_	C	Cp	_	3	conj	3	conj
+7	упражнява	_	V	Vpi	trans=t|mood=i|tense=r|pers=3|num=s	3	conjarg	3	conjarg
+8	парламентарен	_	A	Am	gen=m|num=s|def=i	9	mod	9	mod
+9	контрол	_	N	Nc	gen=m|num=s|def=i	7	obj	7	obj
+10	.	_	Punct	Punct	_	3	punct	3	punct
+
+1	Народното	_	A	An	gen=n|num=s|def=d	2	mod	2	mod
+2	събрание	_	N	Nc	gen=n|num=s|def=i	4	subj	4	subj
+3	се	_	P	Pp	ref=r|form=s|case=a	4	comp	4	comp
+4	състои	_	V	Vpi	trans=i|mood=i|tense=r|pers=3|num=s	0	ROOT	0	ROOT
+5	от	_	R	R	_	4	indobj	4	indobj
+6	240	_	M	Mc	_	8	mod	8	mod
+7	народни	_	A	A	num=p|def=i	8	mod	8	mod
+8	представители	_	N	Nc	gen=m|num=p|def=i	5	prepcomp	5	prepcomp
+9	.	_	Punct	Punct	_	4	punct	4	punct
+
+1	Народното	_	A	An	gen=n|num=s|def=d	2	mod	2	mod
+2	събрание	_	N	Nc	gen=n|num=s|def=i	4	subj	4	subj
+3	се	_	P	Pp	ref=r|form=s|case=a	4	comp	4	comp
+4	избира	_	V	Vpi	trans=t|mood=i|tense=r|pers=3|num=s	0	ROOT	0	ROOT
+5	за	_	R	R	_	4	adjunct	4	adjunct
+6	срок	_	N	Nc	gen=m|num=s|def=i	5	prepcomp	5	prepcomp
+7	от	_	R	R	_	6	mod	6	mod
+8	четири	_	M	Mc	_	9	mod	9	mod
+9	години	_	N	Nc	gen=f|num=p|def=i	7	prepcomp	7	prepcomp
+10	.	_	Punct	Punct	_	4	punct	4	punct
+
+1	За	_	R	R	_	5	indobj	4	adjunct
+2	народен	_	A	Am	gen=m|num=s|def=i	3	mod	3	mod
+3	представител	_	N	Nc	gen=m|num=s|def=i	1	prepcomp	1	prepcomp
+4	може	_	V	Vni	imtrans=i|mood=i|tense=r|pers=3|num=s	0	ROOT	0	ROOT
+5	да	_	T	Tx	_	4	xcomp	4	xcomp
+6	бъде	_	V	Vyp	type=aux|aspect=p|trans=t|mood=i|tense=r|pers=3|num=s	5	comp	5	comp
+7	избиран	_	V	Vpi	trans=t|vform=c|voice=v|num=s|gen=m|def=i	5	comp	5	comp
+8	български	_	A	Am	gen=m|num=s|def=i	9	mod	9	mod
+9	гражданин	_	N	Nc	gen=m|num=s|def=i	5	subj	5	subj
+10	,	_	Punct	Punct	_	12	punct	12	punct
+11	който	_	P	Pr	ref=e|case=n|num=s|gen=m	12	subj	12	subj
+12	няма	_	V	Vpi	trans=t|mood=i|tense=r|pers=3|num=s	9	xmod	9	xmod
+13	друго	_	A	An	gen=n|num=s|def=i	14	mod	14	mod
+14	гражданство	_	N	Nc	gen=n|num=s|def=i	12	obj	12	obj
+15	,	_	Punct	Punct	_	12	punct	12	punct
+16	навършил	_	V	Vpp	aspect=p|trans=t|vform=c|voice=a|tense=o|num=s|gen=m|def=i	17	comp	17	comp
+17	е	_	V	Vxi	type=aux|trans=t|mood=i|tense=r|pers=3|num=s	12	conjarg	12	conjarg
+18	21	_	M	Mc	_	19	mod	19	mod
+19	години	_	N	Nc	gen=f|num=p|def=i	17	obj	17	obj
+20	,	_	Punct	Punct	_	12	punct	12	punct
+21	не	_	T	Tn	_	22	mod	22	mod
+22	е	_	V	Vxi	type=aux|trans=t|mood=i|tense=r|pers=3|num=s	12	conjarg	12	conjarg
+23	поставен	_	V	Vpp	aspect=p|trans=t|vform=c|voice=v|num=s|gen=m|def=i	22	comp	22	comp
+24	под	_	R	R	_	22	indobj	22	indobj
+25	запрещение	_	N	Nc	gen=n|num=s|def=i	24	prepcomp	24	prepcomp
+26	и	_	C	Cp	_	12	conj	12	conj
+27	не	_	T	Tn	_	28	mod	28	mod
+28	изтърпява	_	V	Vpi	trans=t|mood=i|tense=r|pers=3|num=s	12	conjarg	12	conjarg
+29	наказание	_	N	Nc	gen=n|num=s|def=i	28	obj	28	obj
+30	лишаване	_	N	Nc	gen=n|num=s|def=i	29	mod	29	mod
+31	от	_	R	R	_	30	mod	30	mod
+32	свобода	_	N	Nc	_	31	prepcomp	31	prepcomp
+33	.	_	Punct	Punct	_	4	punct	4	punct
+
+1	Кандидатите	_	N	Nc	gen=m|num=p|def=d	11	subj	11	subj
+2	за	_	R	R	_	1	mod	1	mod
+3	народни	_	A	A	num=p|def=i	4	mod	4	mod
+4	представители	_	N	Nc	gen=m|num=p|def=i	2	prepcomp	2	prepcomp
+5	,	_	Punct	Punct	_	7	punct	7	punct
+6	които	_	P	Pr	ref=e|case=n|num=p	7	subj	7	subj
+7	заемат	_	V	Vpi	trans=t|mood=i|tense=r|pers=3|num=p	1	xmod	1	xmod
+8	държавна	_	A	Af	gen=f|num=s|def=i	9	mod	9	mod
+9	служба	_	N	Nc	_	7	obj	7	obj
+10	,	_	Punct	Punct	_	7	punct	7	punct
+11	прекъсват	_	V	Vpi	trans=t|mood=i|tense=r|pers=3|num=p	0	ROOT	0	ROOT
+12	изпълнението	_	N	Nc	gen=n|num=s|def=d	11	obj	11	obj
+13	й	_	P	Ps	ref=op|form=s|pers=3|gen=f	12	clitic	12	clitic
+14	след	_	R	R	_	11	adjunct	11	adjunct
+15	регистрацията	_	N	Nc	gen=f|num=s|def=d	14	prepcomp	14	prepcomp
+16	си	_	P	Ps	ref=r|form=s|case=n	15	clitic	15	clitic
+17	.	_	Punct	Punct	_	11	punct	11	punct
+
+1	Законността	_	N	Nc	gen=f|num=s|def=d	5	subj	4	adjunct
+2	на	_	R	R	_	1	mod	1	mod
+3	изборите	_	N	Nc	gen=m|num=p|def=d	2	prepcomp	2	prepcomp
+4	може	_	V	Vni	imtrans=i|mood=i|tense=r|pers=3|num=s	0	ROOT	0	ROOT
+5	да	_	T	Tx	_	4	xcomp	4	xcomp
+6	се	_	P	Pp	ref=r|form=s|case=a	5	comp	5	comp
+7	оспори	_	V	Vpp	aspect=p|trans=t|mood=i|tense=r|pers=3|num=s	5	comp	5	comp
+8	пред	_	R	R	_	5	indobj	5	indobj
+9	Конституционния	_	A	Am	gen=m|num=s|def=h	10	mod	10	mod
+10	съд	_	N	Nc	gen=m|num=s|def=i	8	prepcomp	8	prepcomp
+1	一	_	Ne	Neu	_	0	ROOT	_	_
+
+1	友情	_	N	Nad	_	0	ROOT	_	_
+
+1	嘉珍	_	N	Nba	_	2	DUMMY1	_	_
+2	和	_	C	Caa	_	4	theme	_	_
+3	我	_	N	Nhaa	_	2	DUMMY2	_	_
+4	住在	_	V	VC1	_	0	ROOT	_	_
+5	同一條	_	DM	DM	_	6	quantifier	_	_
+6	巷子	_	N	Nab	_	4	goal	_	_
+
+1	我們	_	N	Nhaa	_	2	theme	_	_
+2	是	_	V	V_11	_	0	ROOT	_	_
+3	鄰居	_	N	Nab	_	2	range	_	_
+
+1	也	_	D	Dbb	_	2	evaluation	_	_
+2	是	_	V	V_11	_	0	ROOT	_	_
+3	同班	_	N	Nv3	_	4	property	_	_
+4	同學	_	N	Nab	_	2	range	_	_
+
+1	我們	_	N	Nhaa	_	4	agent	_	_
+2	常常	_	D	Dd	_	4	time	_	_
+3	一起	_	D	Dh	_	4	manner	_	_
+4	上學	_	V	VA4	_	0	ROOT	_	_
+
+1	一起	_	D	Dh	_	2	manner	_	_
+2	回家	_	V	VA13	_	0	ROOT	_	_
+
+1	有一天	_	DM	DM	_	0	ROOT	_	_
+
+1	上學	_	V	VA4	_	2	DUMMY	_	_
+2	時	_	Ng	Ng	_	0	ROOT	_	_
+
+1	我	_	N	Nhaa	_	5	theme	_	_
+2	到	_	P	P61	_	5	location	_	_
+3	她	_	N	Nhaa	_	4	possessor	_	_
+4	家	_	N	Ncb	_	2	DUMMY	_	_
+5	等候	_	V	VK2	_	0	ROOT	_	_
+
+1	按	_	V	VC2	_	0	ROOT	_	_
+2	了	_	DE	Di	_	1	aspect	_	_
+3	門鈴	_	N	Nab	_	1	goal	_	_
+
+1	卻	_	D	Dbb	_	2	evaluation	_	_
+2	沒有	_	V	VJ3	_	0	ROOT	_	_
+3	任何	_	Ne	Neqa	_	4	quantifier	_	_
+4	動靜	_	N	Nad	_	2	range	_	_
+
+1	正當	_	P	P16	_	0	ROOT	_	_
+2	我	_	N	Nhaa	_	3	agent	_	_
+3	想	_	V	VE2	_	5	DUMMY	_	_
+4	離開	_	V	VC2	_	3	goal	_	_
+5	時	_	Ng	Ng	_	1	DUMMY	_	_
+
+1	門	_	N	Nab	_	2	property	_	_
+2	內	_	N	Ncda	_	4	location	_	_
+3	突然	_	D	Dd	_	4	time	_	_
+4	傳來	_	V	VC31	_	0	ROOT	_	_
+5	急促	_	V	VH11	_	6	head	_	_
+6	的	_	DE	DE	_	7	property	_	_
+7	腳步聲	_	N	Nad	_	4	theme	_	_
+
+1	嘉珍	_	N	Nba	_	2	agent	_	_
+2	打開	_	V	VC2	_	0	ROOT	_	_
+3	了	_	DE	Di	_	2	aspect	_	_
+4	門	_	N	Nab	_	2	goal	_	_
+
+1	大聲	_	V	VH11	_	2	head	_	_
+2	的	_	DE	DE	_	3	manner	_	_
+3	叫	_	V	VE2	_	0	ROOT	_	_
+4	著	_	DE	Di	_	3	aspect	_	_
+
+1	快	_	V	VH13	_	0	ROOT	_	_
+2	點	_	D	Dfb	_	1	degree	_	_
+
+1	快	_	V	VH13	_	0	ROOT	_	_
+2	點	_	D	Dfb	_	1	degree	_	_
+
+1	我	_	N	Nhaa	_	2	possessor	_	_
+2	媽媽	_	N	Nab	_	3	theme	_	_
+3	暈倒	_	V	VH14	_	0	ROOT	_	_
+4	了	_	T	Ta	_	3	particle	_	_
+
+1	嘉珍	_	N	Nba	_	2	agent	_	_
+2	抓起	_	V	VC31	_	0	ROOT	_	_
+3	我	_	N	Nhaa	_	4	head	_	_
+4	的	_	DE	DE	_	5	possessor	_	_
+5	手	_	N	Nab	_	2	theme	_	_
+
+1	急忙	_	D	Dh	_	5	manner	_	_
+2	往	_	P	P30	_	5	target	_	_
+3	屋	_	N	Nab	_	4	property	_	_
+4	裡	_	N	Ncda	_	2	DUMMY	_	_
+5	跑	_	V	VA11	_	0	ROOT	_	_
+
+1	進入	_	V	VC1	_	0	ROOT	_	_
+2	房間	_	N	Ncb	_	1	goal	_	_
+
+1	``	_	$(	$(	_	4	PUNC	4	PUNC
+2	Ross	_	NE	NE	_	4	SB	4	SB
+3	Perot	_	NE	NE	_	2	PNC	2	PNC
+4	wäre	_	VAFIN	VAFIN	_	0	ROOT	0	ROOT
+5	vielleicht	_	ADV	ADV	_	4	MO	4	MO
+6	ein	_	ART	ART	_	8	NK	8	NK
+7	prächtiger	_	ADJA	ADJA	_	8	NK	8	NK
+8	Diktator	_	NN	NN	_	4	PD	4	PD
+9	''	_	$(	$(	_	4	PUNC	4	PUNC
+
+1	Einer	_	PIS	PIS	_	10	PD	10	PD
+2	,	_	$,	$,	_	1	PUNC	1	PUNC
+3	der	_	PRELS	PRELS	_	8	SB	8	SB
+4	sich	_	PRF	PRF	_	8	OA	8	OA
+5	für	_	APPR	APPR	_	8	MO	8	MO
+6	den	_	ART	ART	_	5	NK	5	NK
+7	Milliardär	_	NN	NN	_	5	NK	5	NK
+8	ausspricht	_	VVFIN	VVFIN	_	1	RC	1	RC
+9	,	_	$,	$,	_	10	PUNC	10	PUNC
+10	ist	_	VAFIN	VAFIN	_	0	ROOT	0	ROOT
+11	Steve	_	NE	NE	_	25	NK	25	NK
+12	Jobs	_	NE	NE	_	11	PNC	11	PNC
+13	,	_	$,	$,	_	25	PUNC	25	PUNC
+14	dem	_	PRELS	PRELS	_	25	DA	25	DA
+15	Perot	_	NE	NE	_	25	SB	25	SB
+16	für	_	APPR	APPR	_	25	MO	25	MO
+17	den	_	ART	ART	_	16	NK	16	NK
+18	Aufbau	_	NN	NN	_	16	NK	16	NK
+19	der	_	ART	ART	_	20	NK	20	NK
+20	Computerfirma	_	NN	NN	_	16	AG	16	AG
+21	Next	_	NE	NE	_	20	NK	20	NK
+22	20	_	CARD	CARD	_	23	NMC	23	NMC
+23	Millionen	_	NN	NN	_	24	NK	24	NK
+24	Dollar	_	NN	NN	_	25	OA	25	OA
+25	bereitstellte	_	VVFIN	VVFIN	_	10	SB	10	SB
+26	.	_	$.	$.	_	10	PUNC	10	PUNC
+
+1	Die	_	ART	ART	_	2	NK	2	NK
+2	Amerikaner	_	NN	NN	_	3	SB	3	SB
+3	müssen	_	VMFIN	VMFIN	_	0	ROOT	0	ROOT
+4	hart	_	ADJD	ADJD	_	5	MO	5	MO
+5	arbeiten	_	VVINF	VVINF	_	3	OC	3	OC
+6	,	_	$,	$,	_	5	PUNC	5	PUNC
+7	um	_	KOUI	KOUI	_	16	CP	16	CP
+8	das	_	ART	ART	_	9	NK	9	NK
+9	Land	_	NN	NN	_	16	OA	16	OA
+10	wieder	_	ADV	ADV	_	16	MO	16	MO
+11	auf	_	APPR	APPR	_	16	CVC	16	CVC
+12	den	_	ART	ART	_	11	NK	11	NK
+13	richtigen	_	ADJA	ADJA	_	11	NK	11	NK
+14	Kurs	_	NN	NN	_	11	NK	11	NK
+15	zu	_	PTKZU	PTKZU	_	16	PM	16	PM
+16	bringen	_	VVINF	VVINF	_	5	MO	5	MO
+17	.	_	$.	$.	_	3	PUNC	3	PUNC
+
+1	Ob	_	KOUS	KOUS	_	5	CP	5	CP
+2	das	_	PDS	PDS	_	5	SB	5	SB
+3	freilich	_	ADV	ADV	_	5	MO	5	MO
+4	so	_	ADV	ADV	_	5	MO	5	MO
+5	klappt	_	VVFIN	VVFIN	_	7	SB	7	SB
+6	,	_	$,	$,	_	7	PUNC	7	PUNC
+7	ist	_	VAFIN	VAFIN	_	0	ROOT	0	ROOT
+8	die	_	ART	ART	_	9	NK	9	NK
+9	Frage	_	NN	NN	_	7	PD	7	PD
+10	.	_	$.	$.	_	7	PUNC	7	PUNC
+
+1	kasahara	_	NAME	NAMEper	_	2	HD	2	HD
+2	arisa	_	NAME	NAMEper	_	3	COMP	3	COMP
+3	desu	_	PV	PVfin	u	0	ROOT	0	ROOT
+4	.	_	.	.	_	3	PUNCT	3	PUNCT
+
+1	kadowaki	_	NAME	NAMEper	_	2	HD	2	HD
+2	masakazu	_	NAME	NAMEper	_	3	COMP	3	COMP
+3	desu	_	PV	PVfin	u	0	ROOT	0	ROOT
+4	.	_	.	.	_	3	PUNCT	3	PUNCT
+
+1	kadowaki	_	NAME	NAMEper	_	2	COMP	2	COMP
+2	saN	_	P	PNsf	_	0	ROOT	0	ROOT
+3	omatase	_	N	VN	_	4	COMP	4	COMP
+4	shimashita	_	VS	VSfin	ta	0	ROOT	0	ROOT
+5	.	_	.	.	_	4	PUNCT	4	PUNCT
+
+1	shucchou	_	N	VN	_	2	COMP	2	COMP
+2	no	_	P	Pgen	_	3	COMP	3	COMP
+3	keN	_	N	NF	_	4	COMP	4	COMP
+4	kimemashou	_	V	Vfin	u	0	ROOT	0	ROOT
+5	ka	_	PS	PSE	_	4	MRK	4	MRK
+6	.	_	.	.	_	5	PUNCT	5	PUNCT
+
+1	hai	_	ITJ	ITJ	_	0	ROOT	0	ROOT
+2	.	_	.	.	_	1	PUNCT	1	PUNCT
+
+1	sou	_	ADV	ADVdem	_	2	COMP	2	COMP
+2	shitara	_	V	Vcnd	_	11	ADJ	11	ADJ
+3	toriaezu	_	ADV	ADVtmp	_	7	ADJ	7	ADJ
+4	mazu	_	ADV	ADVtmp	_	7	ADJ	7	ADJ
+5	sukejuuru	_	N	NN	_	6	COMP	6	COMP
+6	kara	_	P	P	_	7	COMP	7	COMP
+7	kimenai	_	VADJ	VADJi	_	8	COMP	8	COMP
+8	to	_	PS	PSSa	_	9	COMP	9	COMP
+9	ikenai	_	ADJ	ADJifin	_	10	COMP	10	COMP
+10	no	_	N	NF	_	11	COMP	11	COMP
+11	desu	_	PV	PVfin	u	0	ROOT	0	ROOT
+12	ne	_	PS	PSE	_	11	MRK	11	MRK
+13	.	_	.	.	_	12	PUNCT	12	PUNCT
+
+1	sou	_	ADV	ADVdem	_	2	COMP	2	COMP
+2	desu	_	PV	PVfin	u	0	ROOT	0	ROOT
+3	ne	_	PS	PSE	_	2	MRK	2	MRK
+4	.	_	.	.	_	3	PUNCT	3	PUNCT
+
+1	hai	_	ITJ	ITJ	_	0	ROOT	0	ROOT
+2	.	_	.	.	_	1	PUNCT	1	PUNCT
+
+1	kasahara	_	NAME	NAMEper	_	2	COMP	2	COMP
+2	saN	_	P	PNsf	_	3	COMP	3	COMP
+3	no	_	P	Pgen	_	4	COMP	4	COMP
+4	hou	_	N	NF	_	13	ADJ	13	ADJ
+5	wa	_	P	Pfoc	_	4	MRK	4	MRK
+6	kugatsu	_	CD	CDdate	_	8	HD	8	HD
+7	juugatsu	_	CD	CDdate	_	8	HD	8	HD
+8	juuichigatsu	_	CD	CDdate	_	9	COMP	9	COMP
+9	desu	_	PV	PVfin	u	10	COMP	10	COMP
+10	to	_	PS	PSSa	_	13	ADJ	13	ADJ
+11	dono	_	ADJ	ADJwh	_	12	ADJ	12	ADJ
+12	atari	_	N	NN	_	13	SBJ	13	SBJ
+13	ikesou	_	VADJ	VADJ_n	_	14	COMP	14	COMP
+14	desu	_	PV	PVfin	u	0	ROOT	0	ROOT
+15	ka	_	PS	PSE	_	14	MRK	14	MRK
+16	.	_	.	.	_	15	PUNCT	15	PUNCT
+
+1	sou	_	ADV	ADVdem	_	2	COMP	2	COMP
+2	desu	_	PV	PVfin	u	0	ROOT	0	ROOT
+3	ne	_	PS	PSE	_	2	MRK	2	MRK
+4	juugatsu	_	CD	CDdate	_	5	COMP	5	COMP
+5	no	_	P	Pgen	_	6	ADJ	6	ADJ
+6	juuhachinichi	_	CD	CDdate	_	7	COMP	7	COMP
+7	ikou	_	N	Nsf	_	13	ADJ	13	ADJ
+8	wa	_	P	Pfoc	_	7	MRK	7	MRK
+9	yotei	_	N	VN	_	13	SBJ	13	SBJ
+10	ima	_	N	Ntmp	_	11	COMP	11	COMP
+11	no	_	P	Pgen	_	12	ADJ	12	ADJ
+12	tokoro	_	N	NN	_	13	ADJ	13	ADJ
+13	haitte	_	V	Vte	_	14	COMP	14	COMP
+14	inai	_	VADJ	VADJi	_	15	COMP	15	COMP
+15	no	_	N	NF	_	16	COMP	16	COMP
+16	desu	_	PV	PVfin	u	17	COMP	17	COMP
+17	keredomo	_	PS	PSSb	_	0	ROOT	0	ROOT
+18	.	_	.	.	_	17	PUNCT	17	PUNCT
+
+1	juugatsu	_	CD	CDdate	_	2	COMP	2	COMP
+2	no	_	P	Pgen	_	3	ADJ	3	ADJ
+3	juuhachinichi	_	CD	CDdate	_	4	COMP	4	COMP
+4	ikou	_	N	Nsf	_	5	COMP	5	COMP
+5	desu	_	PV	PVfin	u	0	ROOT	0	ROOT
+6	ne	_	PS	PSE	_	5	MRK	5	MRK
+7	.	_	.	.	_	6	PUNCT	6	PUNCT
+
+1	hai	_	ITJ	ITJ	_	0	ROOT	0	ROOT
+2	.	_	.	.	_	1	PUNCT	1	PUNCT
+
+1	so"u	_	ADV	ADVdem	_	2	COMP	2	COMP
+2	de<su	_	PV	PVfin	u	0	ROOT	0	ROOT
+3	n&e	_	PS	PSE	_	2	MRK	2	MRK
+4	c>hotto	_	A&DV	A&DV	_	12	A&DJ	12	A&DJ
+5	wa'tashi	_	N	PRON	_	12	ADJ	12	ADJ
+
+1	oneone	_	_	_	_	2	relation1	2	relation1
+2	twotwo	_	_	_	_	0	ROOT	0	ROOT
+3	threet	_	_	_	_	1	relation2	2	relation2
+4	fourfr	_	_	_	_	2	rel3	2	2nd_rel3

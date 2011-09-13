@@ -1,6 +1,8 @@
-# Turns a dependency parse into a SVG picture.
-# Kaarel Kaljurand
-# 2006-03-03
+# This module is part of DepSVG.
+# Copyright 2008 Kaarel Kaljurand, University of Zurich
+#
+# Author: Kaarel Kaljurand
+# Version: 2008-05-18
 
 package DepSVG;
 
@@ -12,7 +14,7 @@ BEGIN {
 	use Exporter ();
 	our ($VERSION, @ISA, @EXPORT, @EXPORT_OK, %EXPORT_TAGS);
 
-	$VERSION = 0.95;
+	$VERSION = 0.98;
 
 	@ISA = qw(Exporter);
 	@EXPORT = qw(&get_svg);
@@ -45,23 +47,22 @@ my $depth_unit = 4 * $letter_width;
 my $fontSize = 1 * $letter_width . "px";
 
 my $highlightColor = "red";
-my $arcColor = "#f80";
-my $arcColorSpecial = "olive";
-#my $arcColorSpecial = "#afa";
+#my @arcColor = ("#f80", "#f80", "olive", "#ffe090", "#eafbc5");
+my @arcColor = ("#f80", "#f80", "olive", "red", "green");
 my $arcTextColor = "navy";
 my $arrowColor = "#800";
 
 END { }
 
-###
+## xcoord
 #
-###
+#
 sub xcoord
 {
 	my $i = shift;
 	my $xcoord = shift;
 
-	if(defined($xcoord->{$i})) {
+	if (defined $xcoord->{$i}) {
 		return $xcoord->{$i};
 	}
 	else {
@@ -69,15 +70,16 @@ sub xcoord
 	}
 }
 
-###
+## ycoord
+#
 # Map node labels to y-coordinates
-###
+#
 sub ycoord
 {
 	my $i = shift;
 	my $dep2depths = shift;
 
-	if(defined($dep2depths->{$i})) {
+	if (defined $dep2depths->{$i}) {
 		return $dep2depths->{$i} * $depth_unit;
 	}
 	# If the node is not a dependent of any other node
@@ -86,9 +88,9 @@ sub ycoord
 	}
 }
 
-###
+## get_arrow
 #
-###
+#
 sub get_arrow
 {
 return <<EOF;
@@ -99,9 +101,9 @@ markerWidth="8" markerHeight="4" orient="auto">
 EOF
 }
 
-###
+##
 #
-###
+#
 sub get_longest_prop
 {
 	my $h = shift;
@@ -120,10 +122,11 @@ sub get_longest_prop
 	return $unit;
 }
 
-###
+## make_word_distance
+#
 # Calculates the x-coordinate for each word, i.e. the distance
 # from the edge of the window.
-###
+#
 sub make_word_distance
 {
 	my $w = shift;
@@ -157,9 +160,9 @@ sub make_word_distance
 	return ($xcoord, $lastx);
 }
 
-###
+##
 #
-###
+#
 sub get_svg
 {
 	my $w = shift;
@@ -178,7 +181,6 @@ sub get_svg
 	my $head2deps = &get_head2deps($r);
 	my $dep2depths = &get_depths($dep2heads, $tag);
 
-# BUG: remove those soon, use unittesting for that
 #	print "---\n";
 #	&print_depths($dep2depths);
 #	print "---\n";
@@ -204,7 +206,7 @@ sub get_svg
 
 	$svg = $svg . "<g stroke-width='0' fill='black'>\n";
 
-	# Print the nodes (words)
+	# Print the words and their properties
 	foreach my $i (sort {$a <=> $b} keys %{$w}) {
 
 		my $x = $xcoord->{$i};
@@ -226,14 +228,13 @@ sub get_svg
 
 	$svg = $svg . "</g>\n";
 
+	# Print the dashed lines
 	$svg = $svg . "<g stroke='silver' stroke-dasharray='4'>\n";
 
 	foreach my $i (sort {$a <=> $b} keys %{$w}) {
 
 		my $x = $xcoord->{$i};
 		my $y = &ycoord($i, $dep2depths);
-
-		my $fontColor = "black";
 
 		# In case the node is somebody's dependent or somebody's head
 		if(defined $dep2heads->{$i} || defined $head2deps->{$i}) {
@@ -243,24 +244,14 @@ sub get_svg
 	$svg = $svg . "</g>\n";
 
 
-	$svg = $svg . "<g stroke='$arcColor' fill='none'>\n";
+	$svg = $svg . "<g stroke='" . $arcColor[1] . "' fill='none'>\n";
 
 	# Print the arcs
-	foreach my $rel (keys %{$r}) {
+	foreach my $head (keys %{$r}) {
+		foreach my $dep (keys %{$r->{$head}}) {
+			foreach my $rel (keys %{$r->{$head}->{$dep}}) {
 
-
-		foreach my $head (keys %{$r->{$rel}}) {
-			foreach my $dep (keys %{$r->{$rel}->{$head}}) {
-
-				my $color = undef;
-
-				if($r->{$rel}->{$head}->{$dep} == 2) {
-					$color = $arcColorSpecial;
-				}
-		
-
-				# BUG: we don't need the ID
-				#my $id = &make_id($rel, $head, $dep);
+				my $color = $arcColor[$r->{$head}->{$dep}->{$rel}];
 
 				my $x1 = &xcoord($head, $xcoord);
 				my $y1 = &ycoord($head, $dep2depths);
@@ -275,24 +266,30 @@ sub get_svg
 
 	$svg = $svg . "</g>\n";
 
+
 	$svg = $svg . "<g stroke-width='0' fill='$arcTextColor'>\n";
 
-	# Print the arcs
-	foreach my $rel (keys %{$r}) {
-		foreach my $head (keys %{$r->{$rel}}) {
-			foreach my $dep (keys %{$r->{$rel}->{$head}}) {
+	# Print the arcs' texts
+	foreach my $head (keys %{$r}) {
+		foreach my $dep (keys %{$r->{$head}}) {
 
-				# BUG: we don't need the ID
-				#my $id = &make_id($rel, $head, $dep);
+			my $x1 = &xcoord($head, $xcoord);
+			my $y1 = &ycoord($head, $dep2depths);
 
-				my $x1 = &xcoord($head, $xcoord);
-				my $y1 = &ycoord($head, $dep2depths);
+			my $x2 = &xcoord($dep, $xcoord);
+			my $y2 = &ycoord($dep, $dep2depths);
 
-				my $x2 = &xcoord($dep, $xcoord);
-				my $y2 = &ycoord($dep, $dep2depths);
+			# There can be two or more arcs which have the exact same
+			# head and dependent but the labels are different. In order to
+			# avoid printing the two or more labels on top of each other, we
+			# collect them all and print just their concatenation.
+			# BUG: this can be improved, e.g. we should also use the color information,
+			# e.g. print the two labels with different colors.
+			my @relation_names = keys %{$r->{$head}->{$dep}};
+			my $label = join "/", @relation_names;
 
-				$svg = $svg . &draw_arctext($rel, $x1, $x2, $y1, $y2, $dep2heads->{$head}->{$dep});
-			}
+			#$svg = $svg . &draw_arclabel($label, $x1, $x2, $y1, $y2, $dep2heads->{$head}->{$dep});
+			$svg = $svg . &draw_arclabels($x1, $x2, $y1, $y2, $dep2heads->{$head}->{$dep}, $r->{$head}->{$dep});
 		}
 	}
 
@@ -303,9 +300,9 @@ sub get_svg
 	return $svg;
 }
 
-###
+##
 #
-###
+#
 sub print_text_svgtiny
 {
 	my $w = shift;
@@ -322,17 +319,11 @@ sub print_text_svgtiny
 
 		$y = $y + $letter_width;
 
-		if(defined $w->{$i}->{$tag}) {
+		if (defined $w->{$i}->{$tag}) {
 
 			my $content = $w->{$i}->{$tag};
 
-			foreach ($content) {
-				s/\&/\&amp;/g;
-				s/</\&lt;/g;
-				s/>/\&gt;/g;
-				s/'/\&apos;/g;
-				s/"/\&quot;/g;
-			}
+			($content) = &escape_xml_entities($content);
 
 			$text = $text . "<text x='$x' y='$y'$fill>$content</text>\n";
 		}
@@ -344,9 +335,9 @@ sub print_text_svgtiny
 	return $text;
 }
 
-###
+##
 #
-###
+#
 sub print_text
 {
 	my $w = shift;
@@ -360,7 +351,7 @@ sub print_text
 
 	foreach my $tag (@{$props}) {
 
-		if(defined $w->{$i}->{$tag}) {
+		if (defined $w->{$i}->{$tag}) {
 			$text = $text . &print_tspan($w->{$i}->{$tag}, $tag, $x);
 		}
 		else {
@@ -374,9 +365,9 @@ sub print_text
 	return $text;
 }
 
-###
+##
 #
-###
+#
 sub print_tspan
 {
 	my $content = shift;
@@ -387,13 +378,7 @@ sub print_tspan
 
 	my $textLength = length($content) * $letter_width . "px";
 
-	foreach ($class, $content) {
-		s/\&/\&amp;/g;
-		s/</\&lt;/g;
-		s/>/\&gt;/g;
-		s/'/\&apos;/g;
-		s/"/\&quot;/g;
-	}
+	($class, $content) = &escape_xml_entities($class, $content);
 
 # BUG: currently we don't output the class attribute
 #<tspan class='$class' x='$x1' dy='$dystr'>$content</tspan>
@@ -403,9 +388,9 @@ return <<TSPAN;
 TSPAN
 }
 
-###
+##
 #
-###
+#
 sub draw_arc
 {
 	my $x1 = shift;
@@ -431,7 +416,7 @@ sub draw_arc
 		$linestr = "M" . $x1 . " " . $y1 . " " . $x2 . " " . $y2;
 	}
 
-if(defined $color) {
+if (defined $color) {
 return <<EOF;
 <path d='$linestr' marker-end="url(#a)" stroke="$color"/>
 EOF
@@ -443,12 +428,13 @@ EOF
 }
 }
 
-###
+##
 #
-###
-sub draw_arctext
+# @deprecated
+#
+sub draw_arclabel
 {
-	my $type = shift;
+	my $label = shift;
 	my $x1 = shift;
 	my $x2 = shift;
 	my $y1 = shift;
@@ -459,33 +445,68 @@ sub draw_arctext
 	my $ty = $y1 + ($y2 - $y1)/2;
 
 	if($on_loop) {
-
 		($tx, $ty) = &get_vertex($tx, $ty, $x2, $y2);
 	}
 
-	# BUG: move into a function
-	foreach ($type) {
-		s/\&/\&amp;/g;
-		s/</\&lt;/g;
-		s/>/\&gt;/g;
-		s/'/\&apos;/g;
-		s/"/\&quot;/g;
-	}
-
+	($label) = &escape_xml_entities($label);
 
 return <<EOF;
-<text x="$tx" y="$ty">$type</text>
+<text x="$tx" y="$ty">$label</text>
 EOF
 }
 
-###
+
+## draw_arclabels
+#
+# Note: this won't work in SVG Tiny
+#
+sub draw_arclabels
+{
+	my $x1 = shift;
+	my $x2 = shift;
+	my $y1 = shift;
+	my $y2 = shift;
+	my $on_loop = shift;
+	my $labels = shift;
+
+
+	my $tx = $x1 + ($x2 - $x1)/2;
+	my $ty = $y1 + ($y2 - $y1)/2;
+
+	if ($on_loop) {
+		($tx, $ty) = &get_vertex($tx, $ty, $x2, $y2);
+	}
+
+	my $str = "<text x='$tx' y='$ty'>";
+	my @labels = keys %{$labels};
+	if (scalar @labels == 1) {
+			my ($label) = &escape_xml_entities($labels[0]);
+			$str = $str . $label;
+	}
+	else {
+		for (my $i = 0; $i <= $#labels; $i++) {
+			my $color = $arcColor[$labels->{$labels[$i]}];
+			my ($label) = &escape_xml_entities($labels[$i]);
+			$str = $str . "<tspan fill='$color'>" . $label . "</tspan>";
+			if ($i != $#labels) {
+				$str = $str . " ";
+			}
+		}
+	}
+	$str = $str . "</text>";
+	return $str;
+}
+
+
+## get_vertex
+#
 # Returns the 3rd vertex of a right triangle, based on the 2
 # vertexes given as input.
 # This problem has two solutions, but we're happy with the first
 # solution found.
 # Copied from:
 # http://answers.google.com/answers/threadview?id=419874
-###
+#
 sub get_vertex
 {
 	my $tx = shift;
@@ -497,17 +518,23 @@ sub get_vertex
 
 	my $C = sqrt( ($x2 - $tx) ** 2 + ($y2 - $ty) ** 2 );
 
+	if ($C == 0) {
+		warn "DIVISION BY ZERO. WHY?!?! (turning C into 0.001 for the time being)\n";
+		$C = 0.001;
+	}
+
 	my $bx = $tx + $height * ($y2 - $ty) / $C;
 	my $by = $ty + $height * ($tx - $x2) / $C;
 
 	return ($bx, $by);
 }
 
-###
+## print_line
+#
 # Prints an SVG line
 # We actually use the path-element which takes smaller amount bytes.
 # BUG: is it a good idea?
-###
+#
 sub print_line
 {
 	my ($x1, $x2, $y1, $y2) = @_;
@@ -518,9 +545,9 @@ return <<LINE;
 LINE
 }
 
-###
+## make_svg_header
 #
-###
+#
 sub make_svg_header
 {
 	my $sizex = shift;
@@ -543,16 +570,16 @@ return <<EOF;
 <?xml version="1.0" encoding="$encoding"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox='0 0 $viewx $viewy' width='$sizex' height='$sizey'>
 
-<title>.</title>
+<title/>
 <defs>$arrow</defs>
 
 <g stroke-width='$strokeWidth' stroke-linecap='butt' font-family='$fontFamily' font-size='$fontSize' text-anchor='middle' dominant-baseline='central' word-spacing='$wordSpacing' letter-spacing='$letterSpacing'>
 EOF
 }
 
-###
+##
 #
-###
+#
 sub make_svg_footer
 {
 return <<EOF;
@@ -561,9 +588,26 @@ return <<EOF;
 EOF
 }
 
-###
-# BUG: currently not used
-###
+##
+#
+#
+sub escape_xml_entities {
+	my @entities = @_;
+	foreach (@entities) {
+		s/\&/\&amp;/g;
+		s/</\&lt;/g;
+		s/>/\&gt;/g;
+		s/'/\&apos;/g;
+		s/"/\&quot;/g;
+	}
+	return @entities;
+}
+
+
+## make_id
+#
+# @bug currently not used
+#
 sub make_id
 {
 	my $rel = shift;

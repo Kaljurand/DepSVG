@@ -1,32 +1,17 @@
 #!/usr/bin/perl
 
 # Converts the CONLL data into SVG for visualization.
-# Kaarel Kaljurand
-# 2006-03-06
+# @author Kaarel Kaljurand
+# @version 2008-05-17
 
 # Usage:
 #
-# perl conll_to_svg.perl --dir ../img/german < ../data/german_tiger_train.test
+# cat in.txt | perl -I ../src/ regression_tester.perl > out.txt
 
 use strict;
 use warnings;
 use Getopt::Long;
 use DepSVG;
-
-my $dir = ".";
-my $verbosity = 0;
-my $help = "";
-my $version = "";
-
-my $getopt_result = GetOptions(
-	"dir=s"        => \$dir,
-	"verbosity=i"  => \$verbosity,
-	"help"         => \$help,
-	"version"      => \$version
-);
-
-if($version) { &show_version(); exit; }
-if(!$getopt_result || $help) { &show_help(); exit; }
 
 # Datastructures holding all the required information gathered from the input.
 my $properties = {};
@@ -38,8 +23,6 @@ my $debug = 0;
 my $sid = 1;
 
 
-print "Parsing input data... " if $verbosity > 0;
-
 while(<STDIN>) {
 
 	chomp;
@@ -47,19 +30,19 @@ while(<STDIN>) {
 	$linecount++;
 
 	# Sentences are separated by an empty line.
-	if(/^$/) {
+	if (/^$/) {
 		$sentstart = 1;
 		$sid++;
 		next;
 	}
 
 	# If we are in the sentence...
-	if($sentstart) {
+	if ($sentstart) {
 
 		my ($loc, $token, $lemma, $tag, $etag, $morph, $head, $type, $nhead, $ntype) = split "\t+";
 
 		# BUG: do more serious error checking
-		if(!defined($head)) {
+		if (!defined($head)) {
 			warn "Syntax error in corpus on line: $linecount\n";
 			next;
 		}
@@ -71,23 +54,17 @@ while(<STDIN>) {
 		$properties->{$sid}->{$loc}->{"etag"} = $etag;
 
 		### BUG: comment back in if you want to see the morph
-	###	$properties->{$sid}->{$loc}->{"morph"} = $morph;
+		###	$properties->{$sid}->{$loc}->{"morph"} = $morph;
 
-		$relations->{$sid}->{$type}->{$head}->{$loc} = 1;
+		$relations->{$sid}->{$head}->{$loc}->{$type} = 1;
 
-		if($ntype ne "_" && $nhead ne "_" && ($type ne $ntype || $head != $nhead)) {
-			$relations->{$sid}->{$ntype}->{$nhead}->{$loc} = 2;
+		if ($ntype ne "_" && $nhead ne "_" && ($type ne $ntype || $head != $nhead)) {
+			$relations->{$sid}->{$nhead}->{$loc}->{$ntype} = 2;
 		}
 	}
 }
-print "done.\n" if $verbosity > 0;
-
-
-print "Generating SVG... " if $verbosity > 0;
 
 &sentences_to_svg($properties, $relations);
-
-print "done.\n" if $verbosity > 0;
 
 exit;
 
@@ -113,55 +90,6 @@ sub sentences_to_svg
 						["token", "tag", "etag", "lemma", "morph", "LOC"],
 						0, 1000, 1000, $sid);	
 
-
-		&output_sentence($dir, $sid, $svg);
-
+		print $svg;
 	}
-}
-
-
-###
-#
-###
-sub output_sentence
-{
-	my $dir = shift;
-	my $sid = shift;
-	my $svg = shift;
-
-	mkdir $dir;
-
-	my $filename = $dir . "/" . $sid . "." . "svg";
-
-	open(OUT, "> $filename") or die "conll_to_svg.perl: fatal error: open $filename: $!\n";
-	print OUT $svg;
-	close OUT or die "conll_to_svg.perl: fatal error: close $filename: $!\n";
-}
-
-
-###
-# Output the version number
-###
-sub show_version
-{
-print <<EOF;
-conll_to_svg.perl, ver 0.02 (2006-03-06)
-Kaarel Kaljurand (kaljurand\@gmail.com)
-EOF
-}
-
-
-###
-# Output the help message
-###
-sub show_help
-{
-print <<EOF;
-usage: conll_to_svg.perl OPTION...
-OPTIONS:
-	--dir=<directory name>  (where the SVG is saved) (defaults to .)
-	--verbosity=<integer>	(defaults to 0)
-	--version: print version information
-	--help: this help message
-EOF
 }
