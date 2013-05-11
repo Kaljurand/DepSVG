@@ -4,7 +4,7 @@ DepSVG
 DepSVG is a dependency tree and predicate-argument structure visualizer which
 is implemented in Perl and saves into Scalable Vector Graphics (SVG).
 
-Read more at http://kaljurand.github.com/DepSVG/
+Read more at http://kaljurand.github.io/DepSVG/
 
 
 Usage
