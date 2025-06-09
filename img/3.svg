@@ -1,15 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox='0 0 834 243' width='834' height='243'>
-
-<title/>
-<defs><marker id="a" viewbox="0 0 8 4" refX="8" refY="2" markerUnits="strokeWidth"
-markerWidth="8" markerHeight="4" orient="auto">
-<path d="M 0 0 L 8 2 L 0 4 Z" fill='#800'/>
-</marker>
-</defs>
-
-<g stroke-width='1px' stroke-linecap='butt' font-family='sans-serif' font-size='9px' text-anchor='middle' dominant-baseline='central' word-spacing='0px' letter-spacing='0px'>
-<g stroke-width='0' fill='black'>
+<?xml version='1.0' encoding='UTF-8'?><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 828 243' width='828' height='243'><title/><defs><marker id="a" viewbox="0 0 8 4" refX="8" refY="2" markerUnits="strokeWidth" markerWidth="8" markerHeight="4" orient="auto"><path d="M 0 0 L 8 2 L 0 4 Z" fill='#800'/></marker></defs><g stroke-width='1px' stroke-linecap='butt' font-family='sans-serif' font-size='9px' text-anchor='middle' dominant-baseline='central' word-spacing='0px' letter-spacing='0px'><g stroke-width='0' fill='black'>
 <text x='15' y='198'>Einer</text>
 <text x='15' y='207'>PIS</text>
 <text x='15' y='216'>PIS</text>
@@ -46,184 +35,131 @@ markerWidth="8" markerHeight="4" orient="auto">
 <text x='129' y='225'>_</text>
 <text x='129' y='234'>-</text>
 <text x='129' y='243'>6</text>
-<text x='171' y='198'>Milliardär</text>
-<text x='171' y='207'>NN</text>
-<text x='171' y='216'>NN</text>
-<text x='171' y='225'>_</text>
-<text x='171' y='234'>-</text>
-<text x='171' y='243'>7</text>
-<text x='234' y='198'>ausspricht</text>
-<text x='234' y='207'>VVFIN</text>
-<text x='234' y='216'>VVFIN</text>
-<text x='234' y='225'>_</text>
-<text x='234' y='234'>-</text>
-<text x='234' y='243'>8</text>
-<text x='270' y='198'>,</text>
-<text x='270' y='207'>$,</text>
-<text x='270' y='216'>$,</text>
-<text x='270' y='225'>_</text>
-<text x='270' y='234'>-</text>
-<text x='270' y='243'>9</text>
-<text x='291' y='198'>ist</text>
-<text x='291' y='207'>VAFIN</text>
-<text x='291' y='216'>VAFIN</text>
-<text x='291' y='225'>_</text>
-<text x='291' y='234'>-</text>
-<text x='291' y='243'>10</text>
-<text x='321' y='198'>Steve</text>
-<text x='321' y='207'>NE</text>
-<text x='321' y='216'>NE</text>
-<text x='321' y='225'>_</text>
-<text x='321' y='234'>-</text>
-<text x='321' y='243'>11</text>
-<text x='348' y='198'>Jobs</text>
-<text x='348' y='207'>NE</text>
-<text x='348' y='216'>NE</text>
-<text x='348' y='225'>_</text>
-<text x='348' y='234'>-</text>
-<text x='348' y='243'>12</text>
-<text x='366' y='198'>,</text>
-<text x='366' y='207'>$,</text>
-<text x='366' y='216'>$,</text>
-<text x='366' y='225'>_</text>
-<text x='366' y='234'>-</text>
-<text x='366' y='243'>13</text>
-<text x='387' y='198'>dem</text>
-<text x='387' y='207'>PRELS</text>
-<text x='387' y='216'>PRELS</text>
-<text x='387' y='225'>_</text>
-<text x='387' y='234'>-</text>
-<text x='387' y='243'>14</text>
-<text x='417' y='198'>Perot</text>
-<text x='417' y='207'>NE</text>
-<text x='417' y='216'>NE</text>
-<text x='417' y='225'>_</text>
-<text x='417' y='234'>-</text>
-<text x='417' y='243'>15</text>
-<text x='444' y='198'>für</text>
-<text x='444' y='207'>APPR</text>
-<text x='444' y='216'>APPR</text>
-<text x='444' y='225'>_</text>
-<text x='444' y='234'>-</text>
-<text x='444' y='243'>16</text>
-<text x='465' y='198'>den</text>
-<text x='465' y='207'>ART</text>
-<text x='465' y='216'>ART</text>
-<text x='465' y='225'>_</text>
-<text x='465' y='234'>-</text>
-<text x='465' y='243'>17</text>
-<text x='492' y='198'>Aufbau</text>
-<text x='492' y='207'>NN</text>
-<text x='492' y='216'>NN</text>
-<text x='492' y='225'>_</text>
-<text x='492' y='234'>-</text>
-<text x='492' y='243'>18</text>
-<text x='519' y='198'>der</text>
-<text x='519' y='207'>ART</text>
-<text x='519' y='216'>ART</text>
-<text x='519' y='225'>_</text>
-<text x='519' y='234'>-</text>
-<text x='519' y='243'>19</text>
-<text x='567' y='198'>Computerfirma</text>
-<text x='567' y='207'>NN</text>
-<text x='567' y='216'>NN</text>
-<text x='567' y='225'>_</text>
-<text x='567' y='234'>-</text>
-<text x='567' y='243'>20</text>
-<text x='618' y='198'>Next</text>
-<text x='618' y='207'>NE</text>
-<text x='618' y='216'>NE</text>
-<text x='618' y='225'>_</text>
-<text x='618' y='234'>-</text>
-<text x='618' y='243'>21</text>
-<text x='642' y='198'>20</text>
-<text x='642' y='207'>CARD</text>
-<text x='642' y='216'>CARD</text>
-<text x='642' y='225'>_</text>
-<text x='642' y='234'>-</text>
-<text x='642' y='243'>22</text>
-<text x='681' y='198'>Millionen</text>
-<text x='681' y='207'>NN</text>
-<text x='681' y='216'>NN</text>
-<text x='681' y='225'>_</text>
-<text x='681' y='234'>-</text>
-<text x='681' y='243'>23</text>
-<text x='726' y='198'>Dollar</text>
-<text x='726' y='207'>NN</text>
-<text x='726' y='216'>NN</text>
-<text x='726' y='225'>_</text>
-<text x='726' y='234'>-</text>
-<text x='726' y='243'>24</text>
-<text x='783' y='198'>bereitstellte</text>
-<text x='783' y='207'>VVFIN</text>
-<text x='783' y='216'>VVFIN</text>
-<text x='783' y='225'>_</text>
-<text x='783' y='234'>-</text>
-<text x='783' y='243'>25</text>
-<text x='828' y='198'>.</text>
-<text x='828' y='207'>$.</text>
-<text x='828' y='216'>$.</text>
-<text x='828' y='225'>_</text>
-<text x='828' y='234'>-</text>
-<text x='828' y='243'>26</text>
+<text x='168' y='198'>Milliardär</text>
+<text x='168' y='207'>NN</text>
+<text x='168' y='216'>NN</text>
+<text x='168' y='225'>_</text>
+<text x='168' y='234'>-</text>
+<text x='168' y='243'>7</text>
+<text x='228' y='198'>ausspricht</text>
+<text x='228' y='207'>VVFIN</text>
+<text x='228' y='216'>VVFIN</text>
+<text x='228' y='225'>_</text>
+<text x='228' y='234'>-</text>
+<text x='228' y='243'>8</text>
+<text x='264' y='198'>,</text>
+<text x='264' y='207'>$,</text>
+<text x='264' y='216'>$,</text>
+<text x='264' y='225'>_</text>
+<text x='264' y='234'>-</text>
+<text x='264' y='243'>9</text>
+<text x='285' y='198'>ist</text>
+<text x='285' y='207'>VAFIN</text>
+<text x='285' y='216'>VAFIN</text>
+<text x='285' y='225'>_</text>
+<text x='285' y='234'>-</text>
+<text x='285' y='243'>10</text>
+<text x='315' y='198'>Steve</text>
+<text x='315' y='207'>NE</text>
+<text x='315' y='216'>NE</text>
+<text x='315' y='225'>_</text>
+<text x='315' y='234'>-</text>
+<text x='315' y='243'>11</text>
+<text x='342' y='198'>Jobs</text>
+<text x='342' y='207'>NE</text>
+<text x='342' y='216'>NE</text>
+<text x='342' y='225'>_</text>
+<text x='342' y='234'>-</text>
+<text x='342' y='243'>12</text>
+<text x='360' y='198'>,</text>
+<text x='360' y='207'>$,</text>
+<text x='360' y='216'>$,</text>
+<text x='360' y='225'>_</text>
+<text x='360' y='234'>-</text>
+<text x='360' y='243'>13</text>
+<text x='381' y='198'>dem</text>
+<text x='381' y='207'>PRELS</text>
+<text x='381' y='216'>PRELS</text>
+<text x='381' y='225'>_</text>
+<text x='381' y='234'>-</text>
+<text x='381' y='243'>14</text>
+<text x='411' y='198'>Perot</text>
+<text x='411' y='207'>NE</text>
+<text x='411' y='216'>NE</text>
+<text x='411' y='225'>_</text>
+<text x='411' y='234'>-</text>
+<text x='411' y='243'>15</text>
+<text x='438' y='198'>für</text>
+<text x='438' y='207'>APPR</text>
+<text x='438' y='216'>APPR</text>
+<text x='438' y='225'>_</text>
+<text x='438' y='234'>-</text>
+<text x='438' y='243'>16</text>
+<text x='459' y='198'>den</text>
+<text x='459' y='207'>ART</text>
+<text x='459' y='216'>ART</text>
+<text x='459' y='225'>_</text>
+<text x='459' y='234'>-</text>
+<text x='459' y='243'>17</text>
+<text x='486' y='198'>Aufbau</text>
+<text x='486' y='207'>NN</text>
+<text x='486' y='216'>NN</text>
+<text x='486' y='225'>_</text>
+<text x='486' y='234'>-</text>
+<text x='486' y='243'>18</text>
+<text x='513' y='198'>der</text>
+<text x='513' y='207'>ART</text>
+<text x='513' y='216'>ART</text>
+<text x='513' y='225'>_</text>
+<text x='513' y='234'>-</text>
+<text x='513' y='243'>19</text>
+<text x='561' y='198'>Computerfirma</text>
+<text x='561' y='207'>NN</text>
+<text x='561' y='216'>NN</text>
+<text x='561' y='225'>_</text>
+<text x='561' y='234'>-</text>
+<text x='561' y='243'>20</text>
+<text x='612' y='198'>Next</text>
+<text x='612' y='207'>NE</text>
+<text x='612' y='216'>NE</text>
+<text x='612' y='225'>_</text>
+<text x='612' y='234'>-</text>
+<text x='612' y='243'>21</text>
+<text x='636' y='198'>20</text>
+<text x='636' y='207'>CARD</text>
+<text x='636' y='216'>CARD</text>
+<text x='636' y='225'>_</text>
+<text x='636' y='234'>-</text>
+<text x='636' y='243'>22</text>
+<text x='675' y='198'>Millionen</text>
+<text x='675' y='207'>NN</text>
+<text x='675' y='216'>NN</text>
+<text x='675' y='225'>_</text>
+<text x='675' y='234'>-</text>
+<text x='675' y='243'>23</text>
+<text x='720' y='198'>Dollar</text>
+<text x='720' y='207'>NN</text>
+<text x='720' y='216'>NN</text>
+<text x='720' y='225'>_</text>
+<text x='720' y='234'>-</text>
+<text x='720' y='243'>24</text>
+<text x='777' y='198'>bereitstellte</text>
+<text x='777' y='207'>VVFIN</text>
+<text x='777' y='216'>VVFIN</text>
+<text x='777' y='225'>_</text>
+<text x='777' y='234'>-</text>
+<text x='777' y='243'>25</text>
+<text x='822' y='198'>.</text>
+<text x='822' y='207'>$.</text>
+<text x='822' y='216'>$.</text>
+<text x='822' y='225'>_</text>
+<text x='822' y='234'>-</text>
+<text x='822' y='243'>26</text>
 </g>
 <g stroke='silver' stroke-dasharray='4'>
-<path d='M15 72 15 189'/>
-<path d='M36 108 36 189'/>
-<path d='M57 144 57 189'/>
-<path d='M84 144 84 189'/>
-<path d='M108 144 108 189'/>
-<path d='M129 180 129 189'/>
-<path d='M171 180 171 189'/>
-<path d='M234 108 234 189'/>
-<path d='M270 72 270 189'/>
-<path d='M291 36 291 189'/>
-<path d='M321 108 321 189'/>
-<path d='M348 144 348 189'/>
-<path d='M366 108 366 189'/>
-<path d='M387 108 387 189'/>
-<path d='M417 108 417 189'/>
-<path d='M444 108 444 189'/>
-<path d='M465 144 465 189'/>
-<path d='M492 144 492 189'/>
-<path d='M519 180 519 189'/>
-<path d='M567 144 567 189'/>
-<path d='M618 180 618 189'/>
-<path d='M642 180 642 189'/>
-<path d='M681 144 681 189'/>
-<path d='M726 108 726 189'/>
-<path d='M783 72 783 189'/>
-<path d='M828 72 828 189'/>
-</g>
+<path d='M15 72 15 189'/><path d='M36 108 36 189'/><path d='M57 144 57 189'/><path d='M84 144 84 189'/><path d='M108 144 108 189'/><path d='M129 180 129 189'/><path d='M168 180 168 189'/><path d='M228 108 228 189'/><path d='M264 72 264 189'/><path d='M285 36 285 189'/><path d='M315 108 315 189'/><path d='M342 144 342 189'/><path d='M360 108 360 189'/><path d='M381 108 381 189'/><path d='M411 108 411 189'/><path d='M438 108 438 189'/><path d='M459 144 459 189'/><path d='M486 144 486 189'/><path d='M513 180 513 189'/><path d='M561 144 561 189'/><path d='M612 180 612 189'/><path d='M636 180 636 189'/><path d='M675 144 675 189'/><path d='M720 108 720 189'/><path d='M777 72 777 189'/><path d='M822 72 822 189'/></g>
 <g stroke='#f80' fill='none'>
-<path d='M783 72 321 108' marker-end="url(#a)" stroke="#f80"/>
-<path d='M783 72 726 108' marker-end="url(#a)" stroke="#f80"/>
-<path d='M783 72 417 108' marker-end="url(#a)" stroke="#f80"/>
-<path d='M783 72 444 108' marker-end="url(#a)" stroke="#f80"/>
-<path d='M783 72 387 108' marker-end="url(#a)" stroke="#f80"/>
-<path d='M783 72 366 108' marker-end="url(#a)" stroke="#f80"/>
-<path d='M567 144 519 180' marker-end="url(#a)" stroke="#f80"/>
-<path d='M567 144 618 180' marker-end="url(#a)" stroke="#f80"/>
-<path d='M15 72 36 108' marker-end="url(#a)" stroke="#f80"/>
-<path d='M15 72 234 108' marker-end="url(#a)" stroke="#f80"/>
-<path d='M234 108 84 144' marker-end="url(#a)" stroke="#f80"/>
-<path d='M234 108 57 144' marker-end="url(#a)" stroke="#f80"/>
-<path d='M234 108 108 144' marker-end="url(#a)" stroke="#f80"/>
-<path d='M726 108 681 144' marker-end="url(#a)" stroke="#f80"/>
-<path d='M681 144 642 180' marker-end="url(#a)" stroke="#f80"/>
-<path d='M0 0 291 36' marker-end="url(#a)" stroke="#f80"/>
-<path d='M321 108 348 144' marker-end="url(#a)" stroke="#f80"/>
-<path d='M444 108 492 144' marker-end="url(#a)" stroke="#f80"/>
-<path d='M444 108 465 144' marker-end="url(#a)" stroke="#f80"/>
-<path d='M444 108 567 144' marker-end="url(#a)" stroke="#f80"/>
-<path d='M291 36 783 72' marker-end="url(#a)" stroke="#f80"/>
-<path d='M291 36 270 72' marker-end="url(#a)" stroke="#f80"/>
-<path d='M291 36 828 72' marker-end="url(#a)" stroke="#f80"/>
-<path d='M291 36 15 72' marker-end="url(#a)" stroke="#f80"/>
-<path d='M108 144 171 180' marker-end="url(#a)" stroke="#f80"/>
-<path d='M108 144 129 180' marker-end="url(#a)" stroke="#f80"/>
-</g>
+<path d='M285 36 15 72' marker-end="url(#a)" stroke="#f80"/><path d='M285 36 264 72' marker-end="url(#a)" stroke="#f80"/><path d='M285 36 777 72' marker-end="url(#a)" stroke="#f80"/><path d='M285 36 822 72' marker-end="url(#a)" stroke="#f80"/><path d='M15 72 36 108' marker-end="url(#a)" stroke="#f80"/><path d='M15 72 228 108' marker-end="url(#a)" stroke="#f80"/><path d='M228 108 57 144' marker-end="url(#a)" stroke="#f80"/><path d='M228 108 84 144' marker-end="url(#a)" stroke="#f80"/><path d='M228 108 108 144' marker-end="url(#a)" stroke="#f80"/><path d='M108 144 129 180' marker-end="url(#a)" stroke="#f80"/><path d='M108 144 168 180' marker-end="url(#a)" stroke="#f80"/><path d='M0 0 285 36' marker-end="url(#a)" stroke="#f80"/><path d='M777 72 315 108' marker-end="url(#a)" stroke="#f80"/><path d='M777 72 360 108' marker-end="url(#a)" stroke="#f80"/><path d='M777 72 381 108' marker-end="url(#a)" stroke="#f80"/><path d='M777 72 411 108' marker-end="url(#a)" stroke="#f80"/><path d='M777 72 438 108' marker-end="url(#a)" stroke="#f80"/><path d='M777 72 720 108' marker-end="url(#a)" stroke="#f80"/><path d='M315 108 342 144' marker-end="url(#a)" stroke="#f80"/><path d='M438 108 459 144' marker-end="url(#a)" stroke="#f80"/><path d='M438 108 486 144' marker-end="url(#a)" stroke="#f80"/><path d='M438 108 561 144' marker-end="url(#a)" stroke="#f80"/><path d='M561 144 513 180' marker-end="url(#a)" stroke="#f80"/><path d='M561 144 612 180' marker-end="url(#a)" stroke="#f80"/><path d='M675 144 636 180' marker-end="url(#a)" stroke="#f80"/><path d='M720 108 675 144' marker-end="url(#a)" stroke="#f80"/></g>
 <g stroke-width='0' fill='navy'>
-<text x='552' y='90'>NK</text><text x='754.5' y='90'>OA</text><text x='600' y='90'>SB</text><text x='613.5' y='90'>MO</text><text x='585' y='90'>DA</text><text x='574.5' y='90'>PUNC</text><text x='543' y='162'>NK</text><text x='592.5' y='162'>NK</text><text x='25.5' y='90'>PUNC</text><text x='124.5' y='90'>RC</text><text x='159' y='126'>OA</text><text x='145.5' y='126'>SB</text><text x='171' y='126'>MO</text><text x='703.5' y='126'>NK</text><text x='661.5' y='162'>NMC</text><text x='145.5' y='18'>ROOT</text><text x='334.5' y='126'>PNC</text><text x='468' y='126'>NK</text><text x='454.5' y='126'>NK</text><text x='505.5' y='126'>AG</text><text x='537' y='54'>SB</text><text x='280.5' y='54'>PUNC</text><text x='559.5' y='54'>PUNC</text><text x='153' y='54'>PD</text><text x='139.5' y='162'>NK</text><text x='118.5' y='162'>NK</text></g>
-</g>
-</svg>
+<text x='150' y='54'>PD</text><text x='274.5' y='54'>PUNC</text><text x='531' y='54'>SB</text><text x='553.5' y='54'>PUNC</text><text x='25.5' y='90'>PUNC</text><text x='121.5' y='90'>RC</text><text x='142.5' y='126'>SB</text><text x='156' y='126'>OA</text><text x='168' y='126'>MO</text><text x='118.5' y='162'>NK</text><text x='138' y='162'>NK</text><text x='142.5' y='18'>ROOT</text><text x='546' y='90'>NK</text><text x='568.5' y='90'>PUNC</text><text x='579' y='90'>DA</text><text x='594' y='90'>SB</text><text x='607.5' y='90'>MO</text><text x='748.5' y='90'>OA</text><text x='328.5' y='126'>PNC</text><text x='448.5' y='126'>NK</text><text x='462' y='126'>NK</text><text x='499.5' y='126'>AG</text><text x='537' y='162'>NK</text><text x='586.5' y='162'>NK</text><text x='655.5' y='162'>NMC</text><text x='697.5' y='126'>NK</text></g>
+</g></svg>
