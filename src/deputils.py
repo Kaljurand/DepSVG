@@ -41,7 +41,9 @@ def get_depths(h: Dict[int, Dict[int, int]], tag: str) -> Dict[int, int]:
     return d
 
 
-def get_maxdepth(h: Dict[int, Dict[int, int]], i: int, seen: Dict[int, int], tag: str) -> int:
+def get_maxdepth(
+    h: Dict[int, Dict[int, int]], i: int, seen: Dict[int, int], tag: str
+) -> int:
     maxdepth = 0
     for j in h.get(i, {}):
         if j in seen:

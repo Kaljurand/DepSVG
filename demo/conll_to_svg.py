@@ -29,7 +29,11 @@ def output_sentence(outdir: str, sid: int, svg: str) -> None:
         f.write(svg)
 
 
-def sentences_to_svg(properties: Dict[int, Dict[int, Dict[str, str]]], relations: Dict[int, Dict[int, Dict[int, Dict[str, int]]]], outdir: str) -> None:
+def sentences_to_svg(
+    properties: Dict[int, Dict[int, Dict[str, str]]],
+    relations: Dict[int, Dict[int, Dict[int, Dict[str, int]]]],
+    outdir: str,
+) -> None:
     for sid in relations:
         svg = get_svg(
             properties.get(sid, {}),
@@ -81,7 +85,9 @@ def main() -> None:
             properties[sid][loc]["lemma"] = lemma
             properties[sid][loc]["tag"] = tag
             properties[sid][loc]["etag"] = etag
-            relations.setdefault(sid, {}).setdefault(head, {}).setdefault(loc, {})[typ] = 1
+            relations.setdefault(sid, {}).setdefault(head, {}).setdefault(loc, {})[
+                typ
+            ] = 1
             if ntype != "_" and nhead != "_" and (typ != ntype or head != nhead_int):
                 relations[sid].setdefault(nhead_int, {}).setdefault(loc, {})[ntype] = 2
     if args.verbosity > 0:

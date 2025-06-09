@@ -33,8 +33,8 @@ def ycoord(i: int, dep2depths: Dict[int, int]) -> float:
 
 def get_arrow() -> str:
     return (
-        "<marker id=\"a\" viewbox=\"0 0 8 4\" refX=\"8\" refY=\"2\" "
-        "markerUnits=\"strokeWidth\" markerWidth=\"8\" markerHeight=\"4\" orient=\"auto\">"
+        '<marker id="a" viewbox="0 0 8 4" refX="8" refY="2" '
+        'markerUnits="strokeWidth" markerWidth="8" markerHeight="4" orient="auto">'
         f"<path d=\"M 0 0 L 8 2 L 0 4 Z\" fill='{ARROW_COLOR}'/>"
         "</marker>"
     )
@@ -165,7 +165,14 @@ def print_text_svgtiny(
     return text
 
 
-def print_text(w: Dict[int, Dict[str, str]], i: int, x: float, textline: float, fill: str, props: List[str]) -> str:
+def print_text(
+    w: Dict[int, Dict[str, str]],
+    i: int,
+    x: float,
+    textline: float,
+    fill: str,
+    props: List[str],
+) -> str:
     text = f"<text x='{x}' y='{textline}'{fill}>\n"
     for tag in props:
         content = w.get(i, {}).get(tag, "-")
@@ -176,12 +183,18 @@ def print_text(w: Dict[int, Dict[str, str]], i: int, x: float, textline: float, 
 
 def print_tspan(content: str, cls: str, x1: float) -> str:
     dystr = "1em"
-    text_length = f"{len(content) * LETTER_WIDTH}px"
     cls, content = escape_xml_entities(cls, content)
     return f"<tspan x='{x1}' dy='{dystr}'>{content}</tspan>"
 
 
-def draw_arc(x1: float, x2: float, y1: float, y2: float, on_loop: Optional[int], color: Optional[str] = None) -> str:
+def draw_arc(
+    x1: float,
+    x2: float,
+    y1: float,
+    y2: float,
+    on_loop: Optional[int],
+    color: Optional[str] = None,
+) -> str:
     if on_loop:
         tx = x1 + (x2 - x1) / 2
         ty = y1 + (y2 - y1) / 2
@@ -190,7 +203,7 @@ def draw_arc(x1: float, x2: float, y1: float, y2: float, on_loop: Optional[int],
     else:
         line = f"M{x1} {y1} {x2} {y2}"
     if color is not None:
-        return f"<path d='{line}' marker-end=\"url(#a)\" stroke=\"{color}\"/>"
+        return f'<path d=\'{line}\' marker-end="url(#a)" stroke="{color}"/>'
     return f"<path d='{line}' marker-end=\"url(#a)\"/>"
 
 
@@ -213,7 +226,9 @@ def draw_arclabels(
     else:
         for idx, lab in enumerate(label_keys):
             color = ARC_COLOR[labels[lab]]
-            parts.append(f"<tspan fill='{color}'>" + escape_xml_entities(lab) + "</tspan>")
+            parts.append(
+                f"<tspan fill='{color}'>" + escape_xml_entities(lab) + "</tspan>"
+            )
             if idx != len(label_keys) - 1:
                 parts.append(" ")
     return f"<text x='{tx}' y='{ty}'>" + "".join(parts) + "</text>"
@@ -233,7 +248,9 @@ def print_line(x1: float, x2: float, y1: float, y2: float) -> str:
     return f"<path d='M{x1} {y1} {x2} {y2}'/>"
 
 
-def make_svg_header(sizex: float, sizey: float, viewx: float, viewy: float, encoding: str) -> str:
+def make_svg_header(
+    sizex: float, sizey: float, viewx: float, viewy: float, encoding: str
+) -> str:
     arrow = get_arrow()
     return (
         f"<?xml version='1.0' encoding='{encoding}'?>"

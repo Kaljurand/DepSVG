@@ -6,7 +6,10 @@ from typing import Dict
 from src.depsvg import get_svg
 
 
-def sentences_to_svg(properties: Dict[int, Dict[int, Dict[str, str]]], relations: Dict[int, Dict[int, Dict[int, Dict[str, int]]]]) -> None:
+def sentences_to_svg(
+    properties: Dict[int, Dict[int, Dict[str, str]]],
+    relations: Dict[int, Dict[int, Dict[int, Dict[str, int]]]],
+) -> None:
     for sid in relations:
         svg = get_svg(
             properties.get(sid, {}),
@@ -53,7 +56,9 @@ def main() -> None:
             properties[sid][loc]["lemma"] = lemma
             properties[sid][loc]["tag"] = tag
             properties[sid][loc]["etag"] = etag
-            relations.setdefault(sid, {}).setdefault(head, {}).setdefault(loc, {})[typ] = 1
+            relations.setdefault(sid, {}).setdefault(head, {}).setdefault(loc, {})[
+                typ
+            ] = 1
             if ntype != "_" and nhead != "_" and (typ != ntype or head != nhead_int):
                 relations[sid].setdefault(nhead_int, {}).setdefault(loc, {})[ntype] = 2
     sentences_to_svg(properties, relations)
