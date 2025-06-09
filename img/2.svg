@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 342.0 243' width='342.0' height='243'><title/><defs><marker id="a" viewbox="0 0 8 4" refX="8" refY="2" markerUnits="strokeWidth" markerWidth="8" markerHeight="4" orient="auto"><path d="M 0 0 L 8 2 L 0 4 Z" fill='#800'/></marker></defs><g stroke-width='1px' stroke-linecap='butt' font-family='sans-serif' font-size='9px' text-anchor='middle' dominant-baseline='central' word-spacing='0px' letter-spacing='0px'><g stroke-width='0' fill='black'>
+<text x='33.0' y='198'>Законността</text>
+<text x='33.0' y='207'>N</text>
+<text x='33.0' y='216'>Nc</text>
+<text x='33.0' y='225'>_</text>
+<text x='33.0' y='234'>-</text>
+<text x='33.0' y='243'>1</text>
+<text x='72.0' y='198'>на</text>
+<text x='72.0' y='207'>R</text>
+<text x='72.0' y='216'>R</text>
+<text x='72.0' y='225'>_</text>
+<text x='72.0' y='234'>-</text>
+<text x='72.0' y='243'>2</text>
+<text x='102.0' y='198'>изборите</text>
+<text x='102.0' y='207'>N</text>
+<text x='102.0' y='216'>Nc</text>
+<text x='102.0' y='225'>_</text>
+<text x='102.0' y='234'>-</text>
+<text x='102.0' y='243'>3</text>
+<text x='138.0' y='198'>може</text>
+<text x='138.0' y='207'>V</text>
+<text x='138.0' y='216'>Vni</text>
+<text x='138.0' y='225'>_</text>
+<text x='138.0' y='234'>-</text>
+<text x='138.0' y='243'>4</text>
+<text x='156.0' y='198'>да</text>
+<text x='156.0' y='207'>T</text>
+<text x='156.0' y='216'>Tx</text>
+<text x='156.0' y='225'>_</text>
+<text x='156.0' y='234'>-</text>
+<text x='156.0' y='243'>5</text>
+<text x='168.0' y='198'>се</text>
+<text x='168.0' y='207'>P</text>
+<text x='168.0' y='216'>Pp</text>
+<text x='168.0' y='225'>_</text>
+<text x='168.0' y='234'>-</text>
+<text x='168.0' y='243'>6</text>
+<text x='192.0' y='198'>оспори</text>
+<text x='192.0' y='207'>V</text>
+<text x='192.0' y='216'>Vpp</text>
+<text x='192.0' y='225'>_</text>
+<text x='192.0' y='234'>-</text>
+<text x='192.0' y='243'>7</text>
+<text x='222.0' y='198'>пред</text>
+<text x='222.0' y='207'>R</text>
+<text x='222.0' y='216'>R</text>
+<text x='222.0' y='225'>_</text>
+<text x='222.0' y='234'>-</text>
+<text x='222.0' y='243'>8</text>
+<text x='279.0' y='198'>Конституционния</text>
+<text x='279.0' y='207'>A</text>
+<text x='279.0' y='216'>Am</text>
+<text x='279.0' y='225'>_</text>
+<text x='279.0' y='234'>-</text>
+<text x='279.0' y='243'>9</text>
+<text x='333.0' y='198'>съд</text>
+<text x='333.0' y='207'>N</text>
+<text x='333.0' y='216'>Nc</text>
+<text x='333.0' y='225'>_</text>
+<text x='333.0' y='234'>-</text>
+<text x='333.0' y='243'>10</text>
+</g>
+<g stroke='silver' stroke-dasharray='4'>
+<path d='M33.0 108 33.0 189'/><path d='M72.0 144 72.0 189'/><path d='M102.0 180 102.0 189'/><path d='M138.0 36 138.0 189'/><path d='M156.0 72 156.0 189'/><path d='M168.0 108 168.0 189'/><path d='M192.0 108 192.0 189'/><path d='M222.0 108 222.0 189'/><path d='M279.0 180 279.0 189'/><path d='M333.0 144 333.0 189'/></g>
+<g stroke='#f80' fill='none'>
+<path d='M156.0 72 33.0 108' marker-end="url(#a)" stroke="#f80"/><path d='M156.0 72 168.0 108' marker-end="url(#a)" stroke="#f80"/><path d='M156.0 72 192.0 108' marker-end="url(#a)" stroke="#f80"/><path d='M156.0 72 222.0 108' marker-end="url(#a)" stroke="#f80"/><path d='M138.0 36 33.0 108' marker-end="url(#a)" stroke="olive"/><path d='M138.0 36 156.0 72' marker-end="url(#a)" stroke="#f80"/><path d='M33.0 108 72.0 144' marker-end="url(#a)" stroke="#f80"/><path d='M72.0 144 102.0 180' marker-end="url(#a)" stroke="#f80"/><path d='M0 0 138.0 36' marker-end="url(#a)" stroke="#f80"/><path d='M333.0 144 279.0 180' marker-end="url(#a)" stroke="#f80"/><path d='M222.0 108 333.0 144' marker-end="url(#a)" stroke="#f80"/></g>
+<g stroke-width='0' fill='navy'>
+<text x='94.5' y='90.0'>subj</text><text x='162.0' y='90.0'>comp</text><text x='174.0' y='90.0'>comp</text><text x='189.0' y='90.0'>indobj</text><text x='85.5' y='72.0'>adjunct</text><text x='147.0' y='54.0'>xcomp</text><text x='52.5' y='126.0'>mod</text><text x='87.0' y='162.0'>prepcomp</text><text x='69.0' y='18.0'>ROOT</text><text x='306.0' y='162.0'>mod</text><text x='277.5' y='126.0'>prepcomp</text></g>
+</g></svg>
