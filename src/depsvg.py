@@ -23,6 +23,12 @@ ARC_TEXT_COLOR = "navy"
 ARROW_COLOR = "#800"
 
 
+def fmt_num(x: float | int) -> str:
+    """Format numbers without trailing decimals if unnecessary."""
+    x_float = float(x)
+    return str(int(x_float)) if x_float.is_integer() else str(x_float)
+
+
 def xcoord(i: int, xcoords: Dict[int, float]) -> float:
     return xcoords.get(i, 0)
 
@@ -158,10 +164,10 @@ def print_text_svgtiny(
         y += LETTER_WIDTH
         content = w.get(i, {}).get(tag)
         if content is None:
-            text += f"<text x='{x}' y='{y}'{fill}>-</text>\n"
+            text += f"<text x='{fmt_num(x)}' y='{fmt_num(y)}'{fill}>-</text>\n"
         else:
             content = escape_xml_entities(content)
-            text += f"<text x='{x}' y='{y}'{fill}>{content}</text>\n"
+            text += f"<text x='{fmt_num(x)}' y='{fmt_num(y)}'{fill}>{content}</text>\n"
     return text
 
 
@@ -173,7 +179,7 @@ def print_text(
     fill: str,
     props: List[str],
 ) -> str:
-    text = f"<text x='{x}' y='{textline}'{fill}>\n"
+    text = f"<text x='{fmt_num(x)}' y='{fmt_num(textline)}'{fill}>\n"
     for tag in props:
         content = w.get(i, {}).get(tag, "-")
         text += print_tspan(content, tag, x)
@@ -184,7 +190,7 @@ def print_text(
 def print_tspan(content: str, cls: str, x1: float) -> str:
     dystr = "1em"
     cls, content = escape_xml_entities(cls, content)
-    return f"<tspan x='{x1}' dy='{dystr}'>{content}</tspan>"
+    return f"<tspan x='{fmt_num(x1)}' dy='{dystr}'>{content}</tspan>"
 
 
 def draw_arc(
@@ -199,9 +205,12 @@ def draw_arc(
         tx = x1 + (x2 - x1) / 2
         ty = y1 + (y2 - y1) / 2
         bx, by = get_vertex(tx, ty, x2, y2)
-        line = f"M{x1} {y1} C{bx} {by} {bx} {by} {x2} {y2}"
+        line = (
+            f"M{fmt_num(x1)} {fmt_num(y1)} C{fmt_num(bx)} {fmt_num(by)}"
+            f" {fmt_num(bx)} {fmt_num(by)} {fmt_num(x2)} {fmt_num(y2)}"
+        )
     else:
-        line = f"M{x1} {y1} {x2} {y2}"
+        line = f"M{fmt_num(x1)} {fmt_num(y1)} {fmt_num(x2)} {fmt_num(y2)}"
     if color is not None:
         return f'<path d=\'{line}\' marker-end="url(#a)" stroke="{color}"/>'
     return f"<path d='{line}' marker-end=\"url(#a)\"/>"
@@ -231,7 +240,7 @@ def draw_arclabels(
             )
             if idx != len(label_keys) - 1:
                 parts.append(" ")
-    return f"<text x='{tx}' y='{ty}'>" + "".join(parts) + "</text>"
+    return f"<text x='{fmt_num(tx)}' y='{fmt_num(ty)}'>" + "".join(parts) + "</text>"
 
 
 def get_vertex(tx: float, ty: float, x2: float, y2: float) -> Tuple[float, float]:
@@ -245,7 +254,7 @@ def get_vertex(tx: float, ty: float, x2: float, y2: float) -> Tuple[float, float
 
 
 def print_line(x1: float, x2: float, y1: float, y2: float) -> str:
-    return f"<path d='M{x1} {y1} {x2} {y2}'/>"
+    return f"<path d='M{fmt_num(x1)} {fmt_num(y1)} {fmt_num(x2)} {fmt_num(y2)}'/>"
 
 
 def make_svg_header(
@@ -254,7 +263,7 @@ def make_svg_header(
     arrow = get_arrow()
     return (
         f"<?xml version='1.0' encoding='{encoding}'?>"
-        f"<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 {viewx} {viewy}' width='{sizex}' height='{sizey}'>"
+        f"<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 {fmt_num(viewx)} {fmt_num(viewy)}' width='{fmt_num(sizex)}' height='{fmt_num(sizey)}'>"
         f"<title/>"
         f"<defs>{arrow}</defs>"
         f"<g stroke-width='{STROKE_WIDTH}' stroke-linecap='butt' font-family='{FONT_FAMILY}' font-size='{FONT_SIZE}' text-anchor='middle' dominant-baseline='central' word-spacing='{WORD_SPACING}' letter-spacing='{LETTER_SPACING}'>"
