@@ -2,7 +2,9 @@ DepSVG
 ======
 
 DepSVG is a dependency tree and predicate-argument structure visualizer which
-is implemented in Perl and saves into Scalable Vector Graphics (SVG).
+was originally implemented in Perl and saves into Scalable Vector Graphics
+(SVG). A Python port of the tools was created automatically using Codex and is
+included in this repository.
 
 Read more at http://kaljurand.github.io/DepSVG/
 
@@ -17,6 +19,10 @@ enables the visualization of CoNLL-formatted treebanks, e.g.
 
 visualizes each tree in `demo/treebank.tsv` and saves it as
 an SVG file into the directory `img`.
+
+The automatically generated Python script works in the same way:
+
+    PYTHONPATH=. python3 demo/conll_to_svg.py --dir img < demo/treebank.tsv
 
 
 License
