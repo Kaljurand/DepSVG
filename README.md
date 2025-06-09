@@ -24,8 +24,9 @@ The automatically generated Python script works in the same way:
 
     PYTHONPATH=. python3 demo/conll_to_svg.py --dir img < demo/treebank.tsv
 
-The `img` directory committed in this repo was generated using the Python
-script so that the example output is visible without additional steps.
+The `img` directory committed in this repo was created by running the
+Codex-generated Python version so that the example output is visible without
+additional steps.
 
 
 License
